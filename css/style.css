@@ -20,10 +20,15 @@ body {
   color: #fff;
   height: 94px;
   width: 1920px;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
   border-bottom: 1px solid rgba(235, 235, 240, 0.20);
 }
 .header {
+  padding-top: 94px;
   min-height: 100vh;
 }
 .header-image {
@@ -212,4 +217,5 @@ border-right: none;
   height: 1px;
   background: #5C8EE5;
   width: 40px;
+  margin-right: 12px;
 }
