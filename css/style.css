@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 @font-face {
+  font-family: 'Bebas Neue Regular';
+  src: url("../fonts/BebasNeueRegular.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'Bebas Neue Book';
   src: url("../fonts/BebasNeueBook.woff") format('woff');
   font-weight: normal;
@@ -13,13 +19,14 @@ body {
 .container {
   max-width: 1440px;
   margin: auto;
+  margin-left: 192px;
 }
 .navbar {
   display: flex;
   align-items: center;
   color: #fff;
-  height: 94px;
-  width: 1920px;
+  height: 74px;
+ 
   position: fixed;
   top: 0;
   left: 0;
@@ -37,12 +44,12 @@ body {
   fill: #292D33;
 }
 .header {
-  padding-top: 94px;
+  padding-top: 74px;
   min-height: 100vh;
 }
 .header-image {
   background-image: url('../img/header-bg.jpg');
-  width: 1920px;
+  height: 775px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -61,7 +68,7 @@ body {
 .header-logo {
   display: flex;
   align-items:center;
-  padding: 0px 50px;
+  padding: 0px 31px;
   border-right: 1px solid rgba(235, 235, 240, 0.2);
   height: 100%;
 }
@@ -69,107 +76,130 @@ body {
   display: flex; /* Гибкость */
   flex-basis: 100%; /* На всю ширину */
   list-style: none; /* Убирает точки у списка */
-  padding: 0 50px; /* Отступы */
+  padding: 0 40px 0px 40px; /* Отступы */
   margin: 0; /* Убираем отступы свурху и снизу */
 }
 .header-nav-link{
-  font-weight: 400;
+  font-weight: 200;
   text-decoration: none;
-  font-size: 16px;
-  margin-right: 50px;
+  font-size: 14px;
+  margin-right: 40px;
   color: inherit; /* Цвет как у родителя */
+  word-spacing: -0.75px;
+  letter-spacing: -0.15px;
 }
 .header-phone {
   flex-shrink: 0; /* Чтобы телефон не сжимался */
   display: flex; /* Гибкость */
   align-items: center; /* Выравнивание по центру */
   gap: 10px; /* Отступ от иконки */
-  margin-right: 50px;
+  margin-right: 33px;
   text-decoration: none; /* Убираем подчеркивание */
 
 }
 .header-phone-link {
   text-decoration: none;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
   color: inherit; /* Цвет как у родителя */
 }
 .button {
-  font-size: 16px;
-  font-weight: 600;
+  height: 60px;
+  width: 250px;
+  font-size: 12px;
+  font-weight: 400;
   line-height: 160%;
+  padding: 20px 49px;
   color: #ffffff;
   background: #3A71D1;
-  padding: 25px 60px;
   border: none; /* Нет обводки */
   display: inline-block;
   cursor: pointer;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
 }
 .navbar-button {
   flex-shrink: 0;
   height: 100%;
+  width: 225px;
+  padding: 17px 40px;
+  letter-spacing: 0px;
 }
 .header-button {
   height: 100%;
 }
 .seporator {
   background: #5C8EE5;
-  width: 150px;
-  height: 2px; 
+  width: 120px;
+  height: 1px; 
+  margin-top: 13px;
 }
 .header-content {
-  padding-top: 150px;
+  padding-top: 108px;
   position: relative;
   z-index: 1;
   color: #ffffff
 }
 .header-title {
-  max-width: 1080px;
+  max-width: 820px;
   line-height: 120%;
-  font-family: Bebas Neue Book;
-  font-size: 80px;
+  font-family: Bebas Neue Regular;
+  font-size: 64px;
   font-weight: 400;
-  margin: 30px 0;
+  margin: 18px 0;
 }
 .header-text {
-  max-width: 720px;
+  max-width: 582px;
   font-family: Noto Sans;
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 160%; 
-  margin-bottom: 50px;
+  line-height: 172%;
+  margin-bottom: 41px;
+  margin-top: 31px;
+  word-spacing: 1.3px;
+  letter-spacing: 0.33px;
 }
 .header-features {
   display: flex;
   min-height: 168px;
   padding: 0;
-  margin-top: 100px;
+  margin-top: 81px;
   list-style: none;
   color: #ffffff;
   position: relative;
 }
 .header-features-item {
-  padding: 30px 50px;
+  padding: 19px 38px;
+  height: 133.6px;
   border: 1px solid rgba(235, 235, 240, 0.20)
 }
 .header-features-text {
-  font-size: 16px;
-  line-height: 160%;
+  width: 143.5px;
+  margin-right: 9px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 163%;
   font-weight: 400;
+  letter-spacing: 0.5px;
+  word-spacing: -0.20000000000000284px;
+  margin-left: 1px;
 }
 .header-features-item:not(:last-child) { /* Для всех, кроме последнего */
 border-right: none;
 }
 .section {
-  margin-top: 150px;
+  margin-top: 121px;
   margin-bottom: 150px;
+  word-spacing: -2.2px;
 }
 .section-title {
   font-family: 'Bebas Neue Book';
   color: #292D33;
-  font-size: 60px;
-  line-height: 120%
+  font-size: 48.9px;
+  line-height: 27%;
+  margin-bottom: 64px;
 }
 .steps {
   display: flex;
@@ -183,7 +213,8 @@ border-right: none;
 .steps-num {
   font-family: 'Bebas Neue Book';
   color: var(--main, #5C8EE5);
-  font-size: 48px;
+  font-size: 39px;
+  font-weight: 600;
   line-height: 120%;
   display: flex;
   align-items: center; 
@@ -198,20 +229,25 @@ border-right: none;
 .steps-title {
   color: #292D33;
   font-family: 'Noto Sans', sans-serif;
-  font-size: 28px;
+  font-size: 23px;
   font-weight: 400;
   line-height: 160%;
-  margin-top: 30px;
+  margin-top: 29px;
   margin-bottom: 10px;
+  letter-spacing: -0.5px;
 }
 .steps-text {
   color: #828A99;
   font-family: 'Noto Sans', sans-serif;
-  font-size: 16px;
+  width: 291px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 160%;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  width: 291px;
+  line-height: 174%;
+  margin-top: -4px;
+  margin-bottom: 14px;
+  letter-spacing: 0.5px;
+  word-spacing: -0.8px;
 }
 .steps-link {
   display: flex;
