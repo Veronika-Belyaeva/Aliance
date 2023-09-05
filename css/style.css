@@ -80,6 +80,9 @@ body {
   border-right: .0625rem solid rgba(235, 235, 240, 0.2);
   height: 100%;
 }
+.logo {
+  display: none;
+}
 .logo-svg {
   width: 8.125rem;
   height: 2.25rem;
@@ -346,9 +349,6 @@ body {
     margin-right: 1rem;
     margin-left: -2rem;
   }
-  .header-content {
-    padding-top: 2rem;
-  }
   .header-features {
     margin-top: 3rem;
   }
@@ -357,10 +357,19 @@ body {
   .slider-buttons {
     border: 1px solid rgba(235, 235, 240, 0.20);
   }
+  .header-content {
+    padding-top: 2.8rem;
+  }
+  .header-title {
+    font-size: 3 rem;
+  }
 }
-@media (max-width: 68.75rem) {
+@media (max-width: 1120px) {
   .container {
     max-width: 59rem;
+  }
+  .header-features {
+    margin-top: 1.875rem;
   }
   .header-phone{
     display: none;
@@ -378,7 +387,7 @@ body {
     background: #5C8EE5;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 1014px) {
   html {
     font-size: 11px;
   }
@@ -516,7 +525,7 @@ body {
     max-width: 40rem;
   }
   .header-title {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .header-content {
     padding-top: 3rem;
@@ -524,7 +533,7 @@ body {
 }
 @media (max-width: 576px) {
   .container {
-    max-width: 90%;
+    max-width: 80%;
   }
   .header-title {
     font-size: 2rem;
