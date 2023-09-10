@@ -21,7 +21,6 @@ body {
 }
 .container {
   max-width: 1440px;
-  margin: auto;
   margin-left: 12rem;
 }
 .navbar {
@@ -57,7 +56,7 @@ body {
 }
 .header-image {
   background-image: url('../img/header-bg.jpg');
-  height: auto;
+  height: 48.5625rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center left 0rem;
@@ -206,8 +205,9 @@ body {
 .header-features {
   display: flex;
   min-height: 10.5rem;
+  margin-bottom: 0;
   padding: 0;
-  margin-top: 5.0625rem;
+  margin-top: 4.9rem;
   list-style: none;
   color: #ffffff;
   position: relative;
@@ -215,12 +215,13 @@ body {
 .header-features-item {
   padding: 1.1875rem 2.375rem;
   min-height: 100%;
+  max-width: 14.4rem;
   height: auto;
   border: .0625rem solid rgba(235, 235, 240, 0.20)
 }
 .slider-buttons {
   display: flex;
-  height: 44px;
+  height: 0px;
 }
 .two {
   gap: 25px;
@@ -233,7 +234,6 @@ body {
   justify-content:space-around;
   cursor: pointer;
 }
-
 .slid-button-prev,
 .slid-button-next {
   height: 100%;
@@ -242,7 +242,7 @@ body {
 .header-features-text {
   width: 8.9688rem;
   margin-right: .5625rem;
-  margin-top: .625rem;
+  margin-top: .725rem;
   margin-bottom: 0;
   font-size: .75rem;
   line-height: 163%;
@@ -252,7 +252,7 @@ body {
   margin-left: .0625rem;
 }
 .section {
-  margin-top: 7.5625rem;
+  margin-top: 7.375rem;
   margin-bottom: 9.375rem;
   word-spacing: -0.1375rem;
 }
@@ -261,7 +261,9 @@ body {
   color: #292D33;
   font-size: 3.0562rem;
   line-height: 120%;
-  margin-bottom: 4rem;
+  margin-bottom: 46px;
+  margin-top: 1.125rem;
+  margin-bottom: 2.5625rem;
 }
 .steps {
   display: flex;
@@ -337,12 +339,15 @@ body {
 .steps-link:hover:before {
   width: 50px;
 }
+.production {
+  margin-top: -6.7rem;
+}
 .cards {
   display: flex;
   flex-wrap: wrap;
 }
 .card {
-  flex-basis: 33%;
+  flex-basis: 30.3%;
   border: 1px solid #EBEBF0;
   position: relative;
   text-decoration: none;
@@ -355,29 +360,34 @@ body {
   border-color: #5C8EE5;
 }
 .card-content {
-  padding: 2.5rem 3.125rem;
+  padding: 2rem 2.4rem;
+  padding-right: 47px;
 }
 .card-text {
   color: #828A99;
-  font-size: 1rem;
+  font-size: 14px;
   font-weight: 400;
   line-height: 140%;
-  margin-bottom: 24.625rem;
+  margin-top: 0px;
+  margin-bottom: 17.625rem;
 }
 .card-title {
   color:#292D33;
-  font-size: 1.75rem;
+  font-size: 25px;
   line-height: 160%;
   font-weight: 400;
   margin-top: 0;
-  margin-bottom: .625rem;
+  letter-spacing: -1.6px;
+  word-spacing: 2.3px;
+  margin-bottom: .5rem;
   transition: color 0.2s;
 }
 .card-image {
-  width: 90%;
+  width: 100%;
   position: absolute;
-  bottom: 0.9px;
+  bottom: 0;
   right: 0;
+  left: 0;
   z-index: 0; /* Картинка не перкрывает текст*/
 }
 .marks {
@@ -385,7 +395,7 @@ body {
   flex-wrap: wrap;
 }
 .mark {
-  flex-basis: 50%;
+  flex-basis: 45%;
   border: 1px solid #EBEBF0;
   display: flex;
   position: relative;
@@ -400,8 +410,8 @@ body {
   padding: 3.125rem;
 }
 .mark-content {
-  padding-top: 50px;
-  padding-right: 80px;
+  padding-top: 3.125rem;
+  padding-right: 1rem;
 }
 .mark-title {
   color: #292D33;
@@ -453,10 +463,10 @@ body {
     min-width: 3rem;
   }
   .header-nav {
-    padding-left: 0.8rem;
+    padding-left: .8rem;
   }
   .header-nav-item:not(:last-child) {
-    margin-right: 0.5rem;
+    margin-right: .5rem;
   }
   .header-phone {
     margin-right: 1rem;
@@ -469,6 +479,7 @@ body {
 @media (max-width: 1199px) {
   .slider-buttons {
     border: 1px solid rgba(235, 235, 240, 0.20);
+    height: 44px;
   }
   .header-content {
     padding-top: 2.8rem;
@@ -478,6 +489,16 @@ body {
   }
   .card {
     flex-basis: 50%;
+  }
+  .header-image {
+    height: 650px;
+  }
+  .mark-content {
+    padding-top: 1.875rem;
+  }
+  .marks-image {
+    height: 14.1rem;
+    width: 14.1rem;
   }
 }
 @media (max-width: 1120px) {
@@ -614,7 +635,7 @@ body {
   .mobile-info {
     display: flex;
     align-items: center;
-    gap: 0.65rem;
+    gap: .65rem;
     margin-bottom: 1rem;
   }
   .mobile-info-address,
@@ -634,6 +655,9 @@ body {
   }
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translateY(-16px);
+  }
+  .header-image {
+    height: 600px;
   }
 }
 @media (max-width: 770px) {
@@ -659,5 +683,8 @@ body {
   }
   .header-content {
     padding-top: 2rem;
+  }
+  .header-image {
+    height: 560px;
   }
 }
