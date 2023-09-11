@@ -56,7 +56,7 @@ body {
 }
 .header-image {
   background-image: url('../img/header-bg.jpg');
-  height: 48.5625rem;
+  height: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center left 0rem;
@@ -252,11 +252,12 @@ body {
   margin-left: .0625rem;
 }
 .section {
-  margin-top: 7.375rem;
+  margin-top: 8.175rem;
   margin-bottom: 9.375rem;
   word-spacing: -0.1375rem;
 }
-.section-title {
+.section-title,
+.section-title-different {
   font-family: 'Bebas Neue Book';
   color: #292D33;
   font-size: 3.0562rem;
@@ -264,6 +265,9 @@ body {
   margin-bottom: 46px;
   margin-top: 1.125rem;
   margin-bottom: 2.5625rem;
+}
+.section-title-small {
+  display: none;
 }
 .steps {
   display: flex;
@@ -322,8 +326,8 @@ body {
   text-decoration: none;
   color:#5C8EE5;
   font-family: 'Noto Sans', sans-serif;
-  font-size: .8125rem;
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: 700;
   line-height: 160%;
   gap: 4px;
   word-spacing: -0.5008px;
@@ -395,13 +399,17 @@ body {
   flex-wrap: wrap;
 }
 .mark {
-  flex-basis: 45%;
+  flex-basis: 50%;
   border: 1px solid #EBEBF0;
   display: flex;
   position: relative;
   text-decoration: none;
   transition: border 0.2s;
   cursor: pointer;
+}
+.mark-add {
+  display: flex;
+  position: relative;
 }
 .mark:hover {
   border-color: #5C8EE5;
@@ -432,6 +440,9 @@ body {
   font-weight: 400;
   line-height: 160%;
 }
+.mark-text-small {
+  display: none;
+}
 @media (max-width: 120rem) {
   html {
     font-size: 1rem;
@@ -461,6 +472,7 @@ body {
   }
   .logo-svg {
     min-width: 3rem;
+    height: 4.3rem;
   }
   .header-nav {
     padding-left: .8rem;
@@ -494,11 +506,14 @@ body {
     height: 650px;
   }
   .mark-content {
-    padding-top: 1.875rem;
+    padding-top: 2.5rem;
   }
   .marks-image {
     height: 14.1rem;
     width: 14.1rem;
+    padding-left: 27px;
+    padding-top: 24px;
+    padding-right: 19px;
   }
 }
 @media (max-width: 1120px) {
@@ -512,16 +527,17 @@ body {
     display: none;
   }
   .navbar {
-    height: 5rem;
+    height: 5.57rem;
   }
   .navbar-button {
-    padding-left: 2rem;
+    padding-left: 2.5rem;
     padding-right: 2rem;
   }
 } 
 @media (max-width: 1010px) {
   .two {
     background: #5C8EE5;
+    height: 36px;
   }
 }
 @media (max-width: 1014px) {
@@ -530,7 +546,7 @@ body {
   }
   .container {
     max-width: 60rem;
-    margin-left: auto;
+    margin-left: 1.1875rem;
     margin-right: auto;
   }
   .header-nav {
@@ -541,15 +557,15 @@ body {
     justify-content: center;
   }
   .header-features {
-    margin-top: 1.875rem;
+    margin-top: 3.975rem;
   }
   .mobile-menu-toggle {
-    width: 5rem;
+    width: 5.6rem;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1.5rem;
+    padding: 24px 20px;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
   .navbar-light .mobile-menu-line {
@@ -568,11 +584,14 @@ body {
     display: none;
   }
   .navbar-button {
-    width: 80px;
+    width: 70px;
   }
   .navbar-button .button-icon {
     display:block;
     fill:#ffffff;
+  }
+  .logo-svg {
+    min-width: 10rem;
   }
   .mobile-menu {
     position: fixed;
@@ -673,18 +692,126 @@ body {
   .header-content {
     padding-top: 3rem;
   }
+  .mark {
+    flex-basis: 100%;
+  }
 }
 @media (max-width: 576px) {
   .container {
-    max-width: 80%;
+    max-width: 311px;
   }
   .header-title {
-    font-size: 2rem;
+    font-size: 45px;
+    letter-spacing: -0.7px;
+    line-height: 116%;
   }
   .header-content {
-    padding-top: 2rem;
+    padding-top: 4.2rem;
+  }
+  .add {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    width: 28.4rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-left: 7.9rem;
   }
   .header-image {
-    height: 560px;
+    height: auto;
+  }
+  .header-text {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    line-height: 167%;
+  }
+  .header-features-text {
+    font-size: 1.1rem;
+    margin-top: 1.25rem;
+    width: 12.8rem;
+  }
+  .header-features-item {
+    padding-right: 18.14rem;
+  }
+  .steps-text {
+    letter-spacing: .5008px;
+    margin-top: 4px;
+    word-spacing: -3px;
+    line-height: 170%;
+    margin-bottom: 23px;
+  }
+  .section-title {
+    margin-top: 1.425rem;
+    margin-bottom: 26px;
+  }
+  .steps-title {
+    margin-top: 0.9875rem;
+    font-size: 20px;
+    letter-spacing: 1px;
+    letter-spacing: -1.2px;
+  }
+  .steps-link {
+    gap: 10px;
+    letter-spacing: 1px;
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+  }
+  .steps-link::before {
+    width: 36px;
+  }
+  .steps-num {
+    font-size: 40px;
+  }
+  .production {
+    margin-top: -1.25rem;
+  }
+  .card-title {
+    font-size: 19px;
+    letter-spacing: -0.6px;
+    word-spacing: 0.1px;
+  }
+  .card-text {
+    font-size: 12px;
+    margin-top: -0.09rem;
+    line-height: 165%;
+    letter-spacing: 0.4px;
+    word-spacing: -0.5px;
+    margin-bottom: 260px;
+  }
+  .card-content {
+    padding: 1.5rem 2.4rem;
+  }
+  .section-title-small {
+    display: block;
+    margin-top: 1.425rem;
+    margin-bottom: 28px;
+    font-family: 'Bebas Neue Book';
+    color: #292D33;
+    font-size: 3.0562rem;
+    line-height: 120%;
+  }
+  .section-title-different {
+    display: none;
+  }
+  .mark-text {
+    display: none;
+  }
+  .mark {
+    display: grid;
+  }
+  .mark-title {
+    line-height: 120%;
+    letter-spacing: -0.7px;
+  }
+  .mark-text-small {
+    display: block;
+    color: #828A99;
+    margin-top: -20px;
+    padding-left: 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.3px;
+    margin-bottom: 2.5rem;
   }
 }
