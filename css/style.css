@@ -678,6 +678,9 @@ body {
   .header-image {
     height: 600px;
   }
+  .card-text {
+    margin-bottom: 28.6rem;
+  }
 }
 @media (max-width: 770px) {
   .container {
