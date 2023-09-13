@@ -56,7 +56,7 @@ body {
 }
 .header-image {
   background-image: url('../img/header-bg.jpg');
-  height: auto;
+  height: 48.4375rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center left 0rem;
@@ -252,7 +252,7 @@ body {
   margin-left: .0625rem;
 }
 .section {
-  margin-top: 8.175rem;
+  margin-top: 7.5rem;
   margin-bottom: 9.375rem;
   word-spacing: -0.1375rem;
 }
@@ -399,49 +399,56 @@ body {
   flex-wrap: wrap;
 }
 .mark {
-  flex-basis: 50%;
+  flex-basis: 45.4%;
   border: 1px solid #EBEBF0;
-  display: flex;
   position: relative;
   text-decoration: none;
+  padding-top: 2.65rem;
+  padding-bottom: 2rem;
   transition: border 0.2s;
   cursor: pointer;
-}
-.mark-add {
-  display: flex;
-  position: relative;
-}
-.mark:hover {
-  border-color: #5C8EE5;
+  display: grid;
+  grid-column-gap: 3.125rem;
+  grid-template-columns: 170px 1fr ;
+  grid-template-rows: auto 2fr;
+  grid-template-areas: 
+    "logo title title"
+    "logo text text";
 }
 .marks-image {
-  padding: 3.125rem;
-}
-.mark-content {
-  padding-top: 3.125rem;
-  padding-right: 1rem;
+  grid-area: logo;
+  margin-left: 2.4rem;
+  width: 100%;
+  /*fill: #5C8EE6;*/
+  fill: #828A99;
 }
 .mark-title {
+  grid-area: title;
   color: #292D33;
-  font-size: 1.75rem;
+  font-size: 1.45rem;
   font-weight: 400;
   line-height: 160%;
   margin: 0;
   transition: color 0.2s;
+} 
+.mark-text {
+  grid-area: text;
+  color: #828A99;
+  margin: 0;
+  padding-top: 8px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 160%;
+  padding-right: 2.875rem;
+}
+.mark:hover {
+  border-color: #5C8EE5;
+}
+.mark:hover .marks-image {
+  fill: #5C8EE5;
 }
 .mark:hover .mark-title {
   color: #5C8EE5;
-}
-.mark-text {
-  color: #828A99;
-  margin: 0;
-  padding-top: 10px;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 160%;
-}
-.mark-text-small {
-  display: none;
 }
 @media (max-width: 120rem) {
   html {
@@ -508,13 +515,10 @@ body {
   .mark-content {
     padding-top: 2.5rem;
   }
-  .marks-image {
-    height: 14.1rem;
-    width: 14.1rem;
-    padding-left: 27px;
-    padding-top: 24px;
-    padding-right: 19px;
+  .mark {
+    grid-template-columns: auto auto;
   }
+  
 }
 @media (max-width: 1120px) {
   .container {
@@ -689,14 +693,35 @@ body {
   .card {
     flex-basis: 100%;
   }
+  .mark {
+    flex-direction: column;
+    flex-basis: 100%;
+    grid-column-gap: 1.9rem;
+    padding-top: 21px;
+  }
+  .mark-title {
+    letter-spacing: -0.2px;
+    line-height: 120%;
+    font-size: 1.47rem;
+  }
+  .mark-text {
+    padding-left: 30px;
+    font-size: 1.1rem;
+    padding-top: 16px;
+    padding-bottom: 0.5rem;
+    padding-left: 25px;
+    line-height: 140%;
+    letter-spacing: -0.55px;
+  }
   .header-title {
     font-size: 3rem;
   }
   .header-content {
     padding-top: 3rem;
   }
-  .mark {
-    flex-basis: 100%;
+  .marks-image {
+    margin-left: 1.1rem;
+    height: 80px;
   }
 }
 @media (max-width: 576px) {
@@ -710,15 +735,6 @@ body {
   }
   .header-content {
     padding-top: 4.2rem;
-  }
-  .add {
-    display: flex;
-    align-items: center;
-    height: 5rem;
-    width: 28.4rem;
-    font-size: 1.1rem;
-    font-weight: 600;
-    padding-left: 7.9rem;
   }
   .header-image {
     height: auto;
@@ -790,31 +806,16 @@ body {
     margin-bottom: 28px;
     font-family: 'Bebas Neue Book';
     color: #292D33;
-    font-size: 3.0562rem;
+    font-size: 2.6rem;
     line-height: 120%;
+    letter-spacing: 0.5px;
   }
   .section-title-different {
     display: none;
   }
-  .mark-text {
-    display: none;
-  }
   .mark {
-    display: grid;
-  }
-  .mark-title {
-    line-height: 120%;
-    letter-spacing: -0.7px;
-  }
-  .mark-text-small {
-    display: block;
-    color: #828A99;
-    margin-top: -20px;
-    padding-left: 2.5rem;
-    font-size: 1.1rem;
-    font-weight: 400;
-    line-height: 160%;
-    letter-spacing: 0.3px;
-    margin-bottom: 2.5rem;
+    grid-template-areas: 
+    "logo title"
+    "text text";
   }
 }
