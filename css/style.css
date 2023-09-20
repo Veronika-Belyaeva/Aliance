@@ -830,7 +830,10 @@ body {
     flex-basis: 50%;
   }
   .primary-buttons-wrapper {
-    height: 2.25rem;
+    height: 3.25rem;
+  }
+  .cta-image {
+    display: none;
   }
 } 
 @media (max-width: 1010px) {
@@ -980,6 +983,9 @@ body {
   .card-text {
     margin-bottom: 37.6rem;
   }
+  .input-group-wrapper {
+    flex-direction: column;
+  }
 }
 @media (max-width: 770px) {
   .container {
@@ -1033,6 +1039,14 @@ body {
   }
     .clients-list {
     columns: 1;
+    margin-top: 3rem;
+  }
+  .clients-list-item {
+    gap: 1.8rem;
+    font-size: 1.2rem;
+  }
+  .clients-list-item:not(:last-child) {
+    padding-bottom: 1.3rem;
   }
   .clients-logo-list {
     margin-right: 1.875rem;
@@ -1074,8 +1088,9 @@ body {
     margin-bottom: 23px;
   }
   .section-title {
-    margin-top: 1.425rem;
+    margin-top: 1.28rem;
     margin-bottom: 26px;
+    line-height: 130%;
   }
   .steps-title {
     margin-top: 0.9875rem;
@@ -1137,5 +1152,52 @@ body {
   }
   .blog-card-text {
     display: none;
+  }
+  .founder-text {
+    margin-top: -1.4rem;
+    font-size: 1.3rem;
+    padding-right: 1.75rem;
+    line-height: 154%;
+  }
+  .section-cta {
+    padding-top: 3.6rem;
+  }
+  .cta-form-footer {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .cta-form-text {
+    font-size: 1.2rem;
+    line-height: 164%;
+    margin-top: -1.2rem;
+    letter-spacing: .025rem;
+    word-spacing: 1.2px;
+    margin-top: -0.9rem;
+  }
+  .cta-form-button {
+    width: 31.8rem;
+    height: 5.6rem;
+    font-size: 1.2rem;
+  }
+  .cta-form {
+    margin-right: 1.4rem;
+    max-width: 25.5rem;
+  }
+  .input-group-wrapper {
+    gap: 2rem;
+  }
+  .input-group {
+    height: 5.6rem;
+  }
+  .input-group-label {
+    left: 2.6rem;
+    top: 2rem;
+  }
+  .cta-form-footer {
+    margin-top: 0.9rem;
+  }
+  .notify-text {
+    max-width: 30rem;
+    font-size: 1.2rem;
   }
 }
