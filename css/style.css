@@ -872,8 +872,8 @@ body {
 .modal-dialog {
   background: #fff;
   margin: auto;
-  max-width: 28.75rem;
-  padding: 2.5rem 3.125rem;
+  max-width: 23rem;
+  padding: 2.5rem 3rem;
   position: relative;
   opacity: 0;
   transform: translateY(-10%);
@@ -883,7 +883,7 @@ body {
   display: block;
   position: absolute;
   top: 2.5rem;
-  right: 3.125rem;
+  right: 1.1rem;
   width: 50px;
   height: 50px;
   display: flex;
@@ -894,7 +894,7 @@ body {
 .modal-title {
   font-family: 'Bebas Neue Regular';
   color:#292D33;
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
@@ -903,14 +903,18 @@ body {
 }
 .modal-text {
   color:#828A99;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 160%;
+  line-height: 163%;
   margin-bottom: 1.875rem;
 }
 .modal-input-group {
   background-color: #fff;
+}
+.modal-input-label {
+  top: 0.7rem;
+  left: 1.5rem;
 }
 .modal-form-footer {
   margin-top: 1.875rem;
@@ -1353,7 +1357,7 @@ body {
 }
 @media (max-width: 576px) {
   .container {
-    max-width: 311px;
+    max-width: 24.7rem;
   }
   .header-title {
     font-size: 45px;
@@ -1500,6 +1504,51 @@ body {
   }
   .notify-text {
     max-width: 30rem;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
+  }
+  .modal-dialog {
+    max-width: 25.4rem;
+    margin: 1.25rem;
+    margin-top: 4.6rem;
+    padding: 2.5rem 2.3rem
+  }
+  .modal-title {
+    font-size: 2.8rem;
+    margin-bottom: 1.13rem;
+    letter-spacing: 0.4px;
+  }
+  .modal-close {
+    right: 1.9rem;
+    width: 30px;
+    height: 30px;
+  }
+  .modal-text {
+    font-size: 1rem;
+    letter-spacing: 0.2px;
+    line-height: 156%;
+    margin-bottom: 1.6rem;
+  }
+  .close-icon {
+    width: 13px;
+    height: 13px;
+  }
+  .input-group {
+    height: 4.4rem;
+  }
+  .input-group-vertical {
+    gap: 1.5rem;
+  }
+  .modal-input-label {
+    font-size: 11px;
+    left: 2.3rem;
+    top: 1.6rem;
+  }
+  .modal-form-button {
+    height: 4.5rem;
+    font-size: 1rem;
+    margin-bottom: 1.4rem;
+  }
+  .modal-form-footer {
+    margin-top: 1.6rem;
   }
 }
