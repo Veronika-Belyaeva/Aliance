@@ -15,6 +15,8 @@
               class="input"
               name="username"
               placeholder=" "
+              maxLength="100"
+              required
               >
               <label class="input-group-label" for="user-name">Имя</label>
             </div>
@@ -26,6 +28,8 @@
               class="input"
               name="userphone"
               placeholder=" "
+              maxLength="30"
+              required
               >
               <label class="input-group-label" for="user-phone">Номер телефона</label>
             </div>
