@@ -28,7 +28,7 @@
         <input 
           id="modal-user-phone" 
           type="text" 
-          class="input modal-input"
+          class="input modal-input phone-mask"
           name="userphone"
           placeholder=" "
           maxLength="30"
