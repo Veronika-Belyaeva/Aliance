@@ -56,7 +56,7 @@
     </div>
     <!-- /.header-phone -->
 
-    <button class="navbar-button button" data-toggle="modal">
+    <button class="navbar-button button" data-toggle="modal" data-target="#feedback-modal">
       <svg class="button-icon" width="16" height="15">
         <use href="img/sprite.svg#Phone"></use>
       </svg> 

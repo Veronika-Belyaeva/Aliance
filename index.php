@@ -56,7 +56,7 @@
     </div>
     <!-- /.header-phone -->
 
-    <button class="navbar-button button" data-toggle="modal">
+    <button class="navbar-button button" data-toggle="modal" data-target="#feedback-modal">
       <svg class="button-icon" width="16" height="15">
         <use href="img/sprite.svg#Phone"></use>
       </svg> 
@@ -75,7 +75,7 @@
         <p class="header-text">
           Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от анализа существующих паттернов поведения.
         </p>
-        <div class="button add">Подробнее о компании</div>
+        <div class="button add" data-toggle="modal" data-target="#feedback-modal">Подробнее о компании</div>
       </div>
       <!-- /.header-content -->
 
