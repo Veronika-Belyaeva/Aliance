@@ -78,7 +78,5 @@
           </ul>
     </div>
   </section>
-
-
   <?php include_once('modal.php'); ?>
 </body>
