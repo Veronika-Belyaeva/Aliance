@@ -1453,6 +1453,9 @@ body {
     display: grid;
     gap: .7rem;
   }
+  .thanks-image {
+    height: 60%;
+  }
 }
 @media (max-width: 576px) {
   .container {
