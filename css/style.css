@@ -1456,6 +1456,9 @@ body {
   .thanks-image {
     height: 60%;
   }
+  .modal {
+    height: 88%;
+  }
 }
 @media (max-width: 576px) {
   .container {
