@@ -428,6 +428,7 @@ body {
 .marks {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 71px;
 }
 .mark {
   flex-basis: 45.4%;
@@ -1529,19 +1530,6 @@ body {
   }
   .card-content {
     padding: 1.5rem 2.4rem;
-  }
-  .section-title-small {
-    display: block;
-    margin-top: 1.425rem;
-    margin-bottom: 28px;
-    font-family: 'Bebas Neue Book';
-    color: #292D33;
-    font-size: 2.6rem;
-    line-height: 120%;
-    letter-spacing: 0.5px;
-  }
-  .section-title-different {
-    display: none;
   }
   .mark {
     grid-template-areas: 

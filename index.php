@@ -36,7 +36,7 @@
         <a href="/contract.php" class="header-nav-link">Контрактное производство</a>
       </li>
       <li class="header-nav-item">
-        <a href="#" class="header-nav-link">Собственные торговые марки</a>
+        <a href="/trademarks.php" class="header-nav-link">Собственные торговые марки</a>
       </li>
       <li class="header-nav-item">
         <a href="#" class="header-nav-link">Новости</a>
@@ -187,84 +187,10 @@
     </div>
     <!-- /.container -->
   </section>
-  <section class="section production">
-    <div class="container">
-      <div class="seporator"></div>
-      <h2 class="section-title">Контрактное производство</h2>
-      <div class="cards">
-        <a href="#" class="card">
-          <div class="card-content">
-            <h3 class="card-title">Автомобильная химия</h3>
-            <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
-          </div>
-          <!-- /.card-content -->
-          <img 
-          src="img/avto-him.png" 
-          alt="Автомобильная химия" 
-          class="card-image"
-          >
-        </a>
-        <a href="#" class="card">
-          <div class="card-content">
-            <h3 class="card-title">Бытовая химия</h3>
-            <p class="card-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
-          </div>
-          <img src="img/chemicals.png" alt="Бытовая химия" class="card-image">
-        </a>
-        <a href="#" class="card">
-          <div class="card-content">
-            <h3 class="card-title">Дезинфицирующие средства</h3>
-            <p class="card-text">Лишь интерактивные прототипы призваны к ответу.</p>
-          </div>
-          <img src="img/Disinfectants.png" alt="Дезинфицирующие средства" class="card-image">
-        </a>
-        <a href="#" class="card">
-          <div class="card-content">
-            <h3 class="card-title">Пищевые аэрозоли</h3>
-            <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
-          </div>
-          <img src="img/Disinfectants.png" alt="Пищевые аэрозоли" class="card-image">
-        </a>
-        <a href="#" class="card">
-          <div class="card-content">
-            <h3 class="card-title">Косметическая продукция</h3>
-            <p class="card-text">Лишь интерактивные прототипы призваны к ответу.</p>
-          </div>
-          <img src="img/avto-him.png" alt="Косметическая продукция" class="card-image">
-        </a>
-        <a href="#" class="card">
-          <div class="card-content">
-              <h3 class="card-title">Краски аэрозольные</h3>
-              <p class="card-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
-          </div>
-          <img src="img/chemicals.png" alt="Краски аэрозольные" class="card-image">
-        </a>
-      </div>
-    </div>
-  </section>
-  <section class="trade-marks">
-    <div class="container">
-      <div class="seporator"></div>
-      <h2 class="section-title-different">собственные торговые марки</h2>
-      <h2 class="section-title-small">собственные марки</h2>
-      <div class="marks">
-        <a href="#" class="mark">
-          <svg class="marks-image">
-            <use href="img/sprite.svg#AGTECH"></use>
-          </svg>
-          <h3 class="mark-title">Автохимия AG-Tech</h3>
-          <p class="mark-text">Для современного мира разбавленное изрядной долей эмпатии, рациональное мышление создаёт предпосылки для поставленных обществом задач.</p>
-        </a>
-        <a href="#" class="mark">
-          <svg class="marks-image">
-            <use href="img/sprite.svg#AP"></use>
-          </svg>
-          <h3 class="mark-title">Автохимия AP</h3>
-          <p class="mark-text">Для современного мира разбавленное изрядной долей эмпатии, рациональное мышление создаёт предпосылки для поставленных обществом задач.</p>
-        </a>
-      </div>
-    </div>
-  </section>
+  <?php $block_title = "Контрактное производство";
+   include_once('./template-parts/section-production.php')?>
+  <?php $block_title = "Собственные торговые марки"; 
+  include_once('./template-parts/trademarks-block.php') ?>
   <section class="section founder">
     <img src="img/founder.jpg" alt="founder" class="founder-photo">
     <div class="container">
