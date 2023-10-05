@@ -900,6 +900,8 @@ body {
   opacity: 0;
   transform: translateY(-10%);
   transition: transform 0.3s, opacity 0.3s;
+  margin-bottom: 5.6875rem;
+  bottom: -2.8125rem;
 }
 .modal-close {
   display: block;
