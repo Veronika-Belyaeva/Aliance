@@ -74,6 +74,11 @@
           </h1>
           <ul class="breadcrumb">
             <li class="breadcrumb-item"><a href="/index.php">Главная</a></li>
+            <?php
+            if(!empty($breadcrumb_li)) {
+              echo '<li class="breadcrumb-item"><a href="'. $breadcrumb_li .'">'. $breadcrumb_title . '</a></li>';
+            }
+          ?>
             <li class="breadcrumb-item"><?php echo $page_title?></li>
           </ul>
     </div>

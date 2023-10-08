@@ -54,9 +54,10 @@
       <!-- /.cta-form-wrapper -->
       
     </div>
-  </section>
-  <footer class="footer">
-    <div class="container">
+</section>
+
+<footer class="footer">
+  <div class="container">
       <div class="footer-top">
         <svg class="logo-svg footer-logo">
           <use href="img/sprite.svg#logo"></use>
@@ -121,7 +122,7 @@
           <h2 class="footer-menu-title">Собственные марки</h2>
           <ul class="footer-menu-list">
             <li class="footer-menu-item">
-              <a href="#" class="footer-menu-link">Автохимия AG-Tech</a>
+              <a href="/product_ag-tech.php" class="footer-menu-link">Автохимия AG-Tech</a>
             </li>
             <li class="footer-menu-item">
               <a href="#" class="footer-menu-link">Автохимия AP</a>
@@ -138,7 +139,7 @@
               <a href="#" class="footer-menu-link footer-menu-link-bold">Новости</a>
             </li>
             <li class="footer-menu-item">
-              <a href="#" class="footer-menu-link footer-menu-link-bold">Контакты</a>
+              <a href="/contact.php" class="footer-menu-link footer-menu-link-bold">Контакты</a>
             </li>
           </ul>
         </div>
@@ -153,7 +154,7 @@
         <div class="footer-legal">
           <p class="footer-copyright">
             &copy; <?php echo date('Y')?> «Aliance Production». Все права защищены.</p>
-            <a href="#" class="footer-policy">Политики конфиденциальности</a>
+            <a href="/politics.php" class="footer-policy">Политики конфиденциальности</a>
         </div>
         <!-- /.footer-legal -->
         <div class="footer-author">

@@ -84,7 +84,11 @@
         </ul>
       </div>
     </section>
-  
+    <?php
+    $container = 'container';
+    $colorText = 'header-features-ag-tech';
+    $colorBorder = 'rgba(235, 235, 240, 1)';
+    include_once('./template-parts/features-block.php'); ?>
     <?php include_once('footer.php'); ?>
     <?php include_once('modal.php'); ?>
   </body>

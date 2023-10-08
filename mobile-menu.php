@@ -30,7 +30,7 @@
           <a href="/trademarks.php" class="mobile-menu-link">Собственные торговые марки</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a href="" class="mobile-submenu-link">Автохимия AG-Tech</a>
+              <a href="/product_ag-tech.php" class="mobile-submenu-link">Автохимия AG-Tech</a>
             </li>
             <li class="mobile-submenu-item">
               <a href="" class="mobile-submenu-link">Автохимия AP</a>

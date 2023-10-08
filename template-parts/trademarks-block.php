@@ -7,7 +7,7 @@
       }
       ?>
       <div class="marks">
-        <a href="#" class="mark">
+        <a href="/product_ag-tech.php" class="mark">
           <svg class="marks-image">
             <use href="img/sprite.svg#AGTECH"></use>
           </svg>
