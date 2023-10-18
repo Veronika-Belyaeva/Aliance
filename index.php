@@ -81,6 +81,7 @@
 
       <?php 
       $colorText = 'header-features';
+      $color_button = '#fff';
       $colorBorder = 'rgba(235, 235, 240, 0.20)';
       include_once('./template-parts/features-block.php'); ?>
     </div>

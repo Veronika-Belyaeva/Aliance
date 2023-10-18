@@ -3,6 +3,15 @@
   .header-features-item {
     border: 1px solid <?= $colorBorder; ?>;
   }
+  .slider-button-prev,
+  .slider-button-next {
+    fill: <?= $color_button; ?>;
+  }
+  @media (max-width: 1199px) {
+    .slider-buttons {
+      border: 1px solid <?= $colorBorder; ?>;
+    }
+  }
 </style>
 <div class="<?= $container;?>">
   <div class="swiper features-slider">
