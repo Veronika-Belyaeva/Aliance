@@ -57,7 +57,11 @@
 
 <div class="modal" id="alert-modal">
   <div class="modal-dialog">
-    <img class="thanks-image" src="img/thanks_illu.jpg" alt="">
+    <picture>
+      <source type="image/webp" srcset="img/thanks_illu.webp" class="thanks-image">
+      <source type="image/jpeg" srcset="img/thanks_illu.jpg" class="thanks-image">
+      <img src="img/thanks_illu.jpg" alt="Thanks" class="thanks-image">
+    </picture>
     <h2 class="modal-title">Спасибо за заявку!</h2>
     <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
       <svg class="close-icon" height="20" width="20">

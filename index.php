@@ -102,5 +102,7 @@
   include_once('./template-parts/blog-block.php');?>
   <?php include_once('footer.php'); ?>
   <?php include_once('modal.php'); ?>
+
+
 </body>
 </html>
