@@ -58,8 +58,8 @@
 <div class="modal" id="alert-modal">
   <div class="modal-dialog">
     <picture>
-      <source type="image/webp" srcset="img/thanks_illu.webp" class="thanks-image">
-      <source type="image/jpeg" srcset="img/thanks_illu.jpg" class="thanks-image">
+      <source type="image/webp" srcset="img/thanks_illu.webp">
+      <source type="image/jpeg" srcset="img/thanks_illu.jpg">
       <img src="img/thanks_illu.jpg" alt="Thanks" class="thanks-image">
     </picture>
     <h2 class="modal-title">Спасибо за заявку!</h2>

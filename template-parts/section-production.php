@@ -14,8 +14,8 @@
           </div>
           <!-- /.card-content -->
           <picture>
-            <source type="image/webp" srcset="img/avto-him.webp" class="card-image">
-            <source type="image/jpeg" srcset="img/avto-him.png" class="card-image">
+            <source type="image/webp" srcset="img/avto-him.webp">
+            <source type="image/jpeg" srcset="img/avto-him.png">
             <img src="img/avto-him.png" alt="avto-him" class="card-image">
           </picture>  
         </a>
@@ -25,8 +25,8 @@
             <p class="card-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
           </div>
           <picture>
-            <source type="image/webp" srcset="img/chemicals.webp" class="card-image">
-            <source type="image/jpeg" srcset="img/chemicals.png" class="card-image">
+            <source type="image/webp" srcset="img/chemicals.webp">
+            <source type="image/jpeg" srcset="img/chemicals.png">
             <img src="img/chemicals.png" alt="chemicals" class="card-image">
           </picture> 
         </a>
@@ -36,8 +36,8 @@
             <p class="card-text">Лишь интерактивные прототипы призваны к ответу.</p>
           </div>
           <picture>
-            <source type="image/webp" srcset="img/Disinfectants.webp" class="card-image">
-            <source type="image/jpeg" srcset="img/Disinfectants.png" class="card-image">
+            <source type="image/webp" srcset="img/Disinfectants.webp">
+            <source type="image/jpeg" srcset="img/Disinfectants.png">
             <img src="img/Disinfectants.png" alt="Дезинфицирующие средства" class="card-image">
           </picture> 
         </a>
@@ -47,8 +47,8 @@
             <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
           </div>
           <picture>
-            <source type="image/webp" srcset="img/Disinfectants.webp" class="card-image">
-            <source type="image/jpeg" srcset="img/Disinfectants.png" class="card-image">
+            <source type="image/webp" srcset="img/Disinfectants.webp">
+            <source type="image/jpeg" srcset="img/Disinfectants.png">
             <img src="img/Disinfectants.png" alt="Пищевые аэрозоли" class="card-image">
           </picture> 
         </a>
@@ -58,7 +58,7 @@
             <p class="card-text">Лишь интерактивные прототипы призваны к ответу.</p>
           </div>
           <picture>
-            <source type="image/webp" srcset="img/avto-him.webp" class="card-image">
+            <source type="image/webp" srcset="img/avto-him.webp">
             <source type="image/jpeg" srcset="img/avto-him.png" class="card-image">
             <img src="img/avto-him.png" alt="Косметическая продукция" class="card-image">
           </picture> 
@@ -69,8 +69,8 @@
               <p class="card-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
           </div>
           <picture>
-            <source type="image/webp" srcset="img/chemicals.webp" class="card-image">
-            <source type="image/jpeg" srcset="img/chemicals.png" class="card-image">
+            <source type="image/webp" srcset="img/chemicals.webp">
+            <source type="image/jpeg" srcset="img/chemicals.png">
             <img src="img/chemicals.png" alt="Краски аэрозольные" class="card-image">
           </picture> 
         </a>

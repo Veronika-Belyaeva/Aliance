@@ -1,8 +1,8 @@
 <section class="cta">
     <div class="bg-grey section-cta">
       <picture>
-        <source type="image/webp" srcset="img/cta.webp" class="cta-image">
-        <source type="image/jpeg" srcset="img/cta.png" class="cta-image">
+        <source type="image/webp" srcset="img/cta.webp">
+        <source type="image/jpeg" srcset="img/cta.png">
         <img src="img/cta.png" alt="call to action" class="cta-image">
       </picture>
       <div class="cta-form-wrapper container">

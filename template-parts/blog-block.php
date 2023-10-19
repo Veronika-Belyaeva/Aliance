@@ -13,8 +13,8 @@
           <!-- Slides -->
           <a href="/blog-more.php" class="swiper-slide blog-card">
             <picture>
-              <source type="image/webp" srcset="img/blog/blog-photo.webp" class="blog-card-image">
-              <source type="image/jpeg" srcset="img/blog/blog-photo.jpg" class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-photo.webp">
+              <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
               <img src="img/blog/blog-photo.jpg" alt="blog" class="blog-card-image">
             </picture>  
             <div class="blog-content">
@@ -25,8 +25,8 @@
           </a>
           <a href="#" class="swiper-slide blog-card">
             <picture>
-              <source type="image/webp" srcset="img/blog/blog-photo2.webp" class="blog-card-image">
-              <source type="image/jpeg" srcset="img/blog/blog-photo2.jpg" class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-photo2.webp">
+              <source type="image/jpeg" srcset="img/blog/blog-photo2.jpg">
               <img src="img/blog/blog-photo2.jpg" alt="blog" class="blog-card-image">
             </picture> 
             <div class="blog-content">
@@ -37,8 +37,8 @@
           </a>
           <a href="#" class="swiper-slide blog-card">
             <picture>
-              <source type="image/webp" srcset="img/blog/blog-photo2.webp" class="blog-card-image">
-              <source type="image/jpeg" srcset="img/blog/blog-photo2.jpg" class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-photo2.webp">
+              <source type="image/jpeg" srcset="img/blog/blog-photo2.jpg">
               <img src="img/blog/blog-photo2.jpg" alt="blog" class="blog-card-image">
             </picture>
             <div class="blog-content">
