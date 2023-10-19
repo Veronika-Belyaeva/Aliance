@@ -32,7 +32,7 @@ const closeMenu = (event) => { // функция закрывания меню
 }
 
 window.addEventListener('scroll', () => { 
-  this.scrollY > 1 ? changeNavHeight("4.5rem") : changeNavHeight("5.625rem");
+  this.scrollY > 1 ? changeNavHeight("4.625rem") : changeNavHeight("4.7rem");
   if (isFront) {
     this.scrollY > 1 ? lightModeOn() : lightModeOff();
   }

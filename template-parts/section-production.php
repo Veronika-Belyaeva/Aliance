@@ -59,7 +59,7 @@
           </div>
           <picture>
             <source type="image/webp" srcset="img/avto-him.webp">
-            <source type="image/jpeg" srcset="img/avto-him.png" class="card-image">
+            <source type="image/jpeg" srcset="img/avto-him.png">
             <img src="img/avto-him.png" alt="Косметическая продукция" class="card-image">
           </picture> 
         </a>

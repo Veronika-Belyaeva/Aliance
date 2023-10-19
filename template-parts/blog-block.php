@@ -1,11 +1,18 @@
+<style>
+  .blog-button-prev,
+  .blog-button-next {
+    fill: <?= $color_button; ?>;
+  }
+</style>
 <section class="section blog">
     <div class="container">
       <?php
         if(!empty($block_title)) {
           echo '<div class="seporator"></div>';
-          echo '<h2 class="section-title">'. $block_title . '</h2>';
+          echo '<h2 class="section-title blog-title">'. $block_title . '</h2>';
         }
       ?>
+
       <!-- Slider main container -->
       <div class="swiper blog-slider">
         <!-- Additional required wrapper -->

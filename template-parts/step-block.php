@@ -1,3 +1,9 @@
+<style>
+  .steps-button-prev,
+  .steps-button-next {
+    fill: <?= $color_button; ?>;
+  }
+</style>
 <section class="section section-light">
     <div class="container">
       <div class="seporator"></div>

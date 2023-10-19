@@ -81,12 +81,12 @@
         </div>
         <div class="footer-social">
           <a href="#" class="footer-social-link">
-            <svg class="footer-social-icon" height="26" width="26">
+            <svg class="footer-social-icon" height="23" width="23">
               <use href="img/sprite.svg#vk"></use>
             </svg> 
           </a>
           <a href="#" class="footer-social-link">
-            <svg class="footer-social-icon" height="26" width="26">
+            <svg class="footer-social-icon" height="23" width="23">
               <use href="img/sprite.svg#inst"></use>
             </svg> 
           </a>

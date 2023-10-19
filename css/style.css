@@ -1,3 +1,6 @@
+@import url("css/normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;400;600;700;800&display=swap");
+@import url("css/swiper-bundle.min.css");
 * {
   box-sizing: border-box;
 }
@@ -20,6 +23,9 @@ html {
 body {
   font-family: 'Noto Sans', sans-serif;
 }
+.front-page {
+  margin: 0;
+}
 .container {
   max-width: 1440px;
   margin-left: 12rem;
@@ -28,7 +34,7 @@ body {
   display: flex;
   align-items: center;
   color: #fff;
-  height: 4.625rem;
+  height: 4.7rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -54,7 +60,7 @@ body {
   display: none;
 }
 .navbar-scroll {
-  height: 4.625rem;
+  height: 4.7rem;
 }
 .navbar-light .header-logo-path {
   fill: #292D33;
@@ -63,11 +69,14 @@ body {
   fill: #5C8EE6
 }
 .header {
-  padding-top: 4.625rem;
+  padding-top: 4.1rem;
 
 }
-.header-image {
+.no-webp .header-image {
   background-image: url('../img/header-bg.jpg');
+}
+.header-image {
+  background-image: url('../img/header-bg.webp');
   height: 48.4375rem;
   background-size: cover;
   background-repeat: no-repeat;
@@ -185,7 +194,7 @@ body {
   margin-top: .8125rem;
 }
 .header-content {
-  padding-top: 6.75rem;
+  padding-top: 7.3rem;
   position: relative;
   z-index: 1;
   color: #ffffff
@@ -266,7 +275,7 @@ body {
 .header-features-text {
   width: 8.9688rem;
   margin-right: .5625rem;
-  margin-top: .725rem;
+  margin-top: 0.425rem;
   margin-bottom: 0;
   font-size: .75rem;
   line-height: 163%;
@@ -276,8 +285,8 @@ body {
   margin-left: .0625rem;
 }
 .section {
-  margin-top: 5.2rem;
-  margin-bottom: 9.375rem;
+  margin-top: 7.6rem;
+  margin-bottom: 18.2rem;
   word-spacing: -0.1375rem;
 }
 .section-title,
@@ -286,7 +295,8 @@ body {
   color: #292D33;
   font-size: 3.0562rem;
   line-height: 120%;
-  margin-bottom: 46px;
+  max-width: 30rem;
+  margin-bottom: 2.875rem;
   margin-top: 1.125rem;
   margin-bottom: 2.5625rem;
   word-spacing: 0.6px;
@@ -299,9 +309,10 @@ body {
   list-style: none;
   padding: 0;
   gap: 8px;
+  max-width: 1145px;
 }
 .steps-item {
-  min-width: 280px;
+  width: 17.4844rem;
   margin-right: 0px;
 }
 .steps-num {
@@ -369,7 +380,7 @@ body {
   text-decoration: none;
   color:#5C8EE5;
   font-family: 'Noto Sans', sans-serif;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   font-weight: 700;
   line-height: 160%;
   gap: 4px;
@@ -387,7 +398,10 @@ body {
   width: 50px;
 }
 .production {
-  margin-top: -6.7rem;
+  margin-top: -12rem;
+}
+.trade-marks {
+  margin-top: -10.625rem;
 }
 .cards {
   display: flex;
@@ -452,7 +466,7 @@ body {
   transition: border 0.2s;
   cursor: pointer;
   display: grid;
-  grid-column-gap: 3.125rem;
+  grid-column-gap: 3.25rem;
   grid-template-columns: 170px 1fr ;
   grid-template-rows: auto 2fr;
   grid-template-areas: 
@@ -461,7 +475,7 @@ body {
 }
 .marks-image {
   grid-area: logo;
-  margin-left: 2.4rem;
+  margin-left: 1.7rem;
   width: 100%;
   /*fill: #5C8EE6;*/
   fill: #828A99;
@@ -471,9 +485,10 @@ body {
   color: #292D33;
   font-size: 1.45rem;
   font-weight: 400;
-  line-height: 160%;
+  line-height: 165%;
   margin: 0;
   transition: color 0.2s;
+  letter-spacing: -0.5px;
 } 
 .mark-text {
   grid-area: text;
@@ -497,12 +512,13 @@ body {
 .founder {
   position: relative;
   min-height: 31.049999999999997rem;
+  margin-bottom: 9.55rem;
 }
 .founder-photo {
   position:absolute;
   left: 0;
   top: 0;
-  height: 100%;
+  height: 106.3%;
   object-fit: cover;
 }
 .founder-content {
@@ -519,7 +535,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
-  margin-top: 4.9375rem;
+  margin-top: -1.22rem;
   word-spacing: .0481rem;
   margin-bottom: 1.125rem;
   padding-right: 6.75rem;
@@ -528,7 +544,7 @@ body {
   list-style-type: none;
   padding: 0;
   columns: 2 auto;
-  margin-top: -0.375rem;
+  margin-top: -0.5999999999999996rem;
 }
 .clients-list-item:not(:last-child) {
   padding-bottom: .9375rem;
@@ -571,13 +587,22 @@ body {
 }
 .clients-logo {
   max-width: 100%;
-  height: 3.75rem;
-  width: 3.75rem;
+  height: 3.25rem;
+  width: 3.25rem;
 }
 .clients-logo-item:hover {
   filter: none;
 }
+.blog {
+  margin-top: -10.6rem;
+  margin-right: 7.25rem;
+}
+.blog-title {
+  max-width: 44rem;
+  word-spacing: 0rem;
+}
 .blog-card {
+  flex-basis: 40%;
   display: flex;
   position: relative;
   min-height: 20.1rem;
@@ -665,9 +690,12 @@ body {
 }
 .section-cta {
   position: relative;
-  padding-top: 6.25rem;
-  margin-top: 4.1rem;
-  padding-bottom: 4.25rem;
+  margin-top: -7rem;
+  padding-bottom: 4.800000000000001rem;
+}
+.cta-form-title {
+  padding-top: 3.5625rem;
+  letter-spacing: -0.025rem;
 }
 .cta-image {
   position: absolute;
@@ -675,7 +703,7 @@ body {
   left: 0;
   max-width: 45rem;
   width: 38%;
-  height: 33.125rem;
+  height: 31.125rem;
 }
 .cta-form-wrapper {
   display: flex;
@@ -690,10 +718,10 @@ body {
   font-size: 0.8rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 185%;
+  line-height: 175%;
   margin-bottom: 2.5rem;
   max-width: 32rem;
-  margin-top: -1.625rem;
+  margin-top: -1.4rem;
 }
 .input-group-wrapper {
   display: flex;
@@ -722,10 +750,10 @@ body {
 .input-group-label {
   position: absolute;
   cursor: text;
-  top: 0.9rem;
-  left: 1.7rem;
+  top: 1.1rem;
+  left: 1.5rem;
   color: #828A99;
-  font-size: 14px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 400;
   transition: top 0.2s, left 0.2s, font-size 0.2s;
@@ -788,7 +816,7 @@ body {
 .footer-top {
   display: flex;
   align-items: center;
-  padding-top: 2.8rem;
+  padding-top: 2.375rem;
   padding-bottom: 1.7rem;
   /*justify-content: space-between; Возможно убрать*/
 }
@@ -831,7 +859,7 @@ body {
 .footer-seporator {
   color: #EBEBF0;
   background-color: #EBEBF0;
-  margin-bottom: 0px;
+  margin-bottom: -3px;
 }
 .footer-bottom {
   display: flex;
@@ -849,7 +877,7 @@ body {
 }
 .footer-menu-list {
   margin: 0;
-  padding-left: 1.2rem;
+  padding-left: 1rem;
   list-style: none;
 }
 .footer-menu-column-2 {
@@ -875,13 +903,13 @@ body {
   margin-bottom: 1.5rem;
 }
 .footer-menu-wrapper:last-child {
-  margin-left: 8rem;
+  margin-left: 8.4rem;
 }
 .footer-wrapper {
   padding-bottom: 1.25rem;
   color: #828A99;
   font-style: normal;
-  padding-top: .875rem;
+  padding-top: 1.2rem;
 }
 .footer-wrapper,
 .footer-legal {
@@ -903,7 +931,7 @@ body {
   padding-right: 7.7rem;
 }
 .footer-social-icon {
-  padding-top: .25rem;
+  padding-top: -2.75rem;
 }
 .modal {
   opacity: 0;
@@ -1088,6 +1116,9 @@ body {
   .footer-phone {
     padding-left: 6rem;
   }
+  .container {
+    margin-right: 30px;
+  }
 }
 @media (max-width: 1280px) {
   .footer-phone {
@@ -1100,9 +1131,6 @@ body {
 @media (max-width: 1252px) {
   html {
     font-size: .8125rem;
-  }
-  .container {
-    margin-right: 30px;
   }
   .header-logo {
     padding: 1rem;
@@ -1126,6 +1154,9 @@ body {
   }
   .photo {
     bottom: 22.9rem;
+  }
+  .card-text {
+    margin-bottom: 22.6rem;
   }
 }
 @media (max-width: 1199px) {
@@ -1240,6 +1271,7 @@ body {
   }
   .header-features {
     margin-top: 3.975rem;
+    margin-bottom: 2.5rem;
   }
   .mobile-menu-toggle {
     width: 5.6rem;
@@ -1566,7 +1598,7 @@ body {
     font-size: 40px;
   }
   .production {
-    margin-top: -1.25rem;
+    margin-bottom: 7.625rem;
   }
   .card-title {
     font-size: 19px;
@@ -1588,6 +1620,9 @@ body {
     grid-template-areas: 
     "logo title"
     "text text";
+  }
+  .trade-marks {
+    margin-top: -1.6rem;
   }
   .blog-card {
     min-height: 18rem;
