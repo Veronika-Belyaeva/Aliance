@@ -3,14 +3,17 @@
   .header-features-item {
     border: 1px solid <?= $colorBorder; ?>;
   }
-  .slider-button-prev,
-  .slider-button-next {
-    fill: <?= $color_button; ?>;
-  }
   @media (max-width: 1199px) {
     .slider-buttons {
       border: 1px solid <?= $colorBorder; ?>;
     }
+    .slider-button-prev,
+    .slider-button-next {
+      fill: <?= $color_button; ?>;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
   }
 </style>
 <div class="<?= $container;?>">
@@ -19,31 +22,31 @@
         <ul class="swiper-wrapper <?= $colorText;?>">
           <!-- Слайды -->
           <li class="swiper-slide header-features-item">
-            <svg width="33" height="39">
+            <svg width="30" height="36">
               <use href="img/sprite.svg#time"></use>
             </svg> 
             <p class="header-features-text">Непрерывная работа c 2017 года</p>
           </li>
           <li class="swiper-slide header-features-item">
-            <svg width="33" height="39">
+            <svg width="30" height="36">
               <use href="img/sprite.svg#setificate"></use>
             </svg> 
             <p class="header-features-text">Вся продукция сертифицирована</p>
           </li>
           <li class="swiper-slide header-features-item">
-            <svg width="33" height="39">
+            <svg width="30" height="36">
               <use href="img/sprite.svg#control"></use>
             </svg> 
             <p class="header-features-text">Контроль качества на всех этапах</p>
           </li>
           <li class="swiper-slide header-features-item">
-            <svg width="33" height="39">
+            <svg width="30" height="36">
               <use href="img/sprite.svg#delivery"></use>
             </svg> 
             <p class="header-features-text">Возможны поставки по всей России</p>
           </li>
           <li class="swiper-slide header-features-item">
-            <svg width="33" height="39">
+            <svg width="30" height="36">
               <use href="img/sprite.svg#speed"></use>
             </svg> 
             <p class="header-features-text">Оперативное производство</p>

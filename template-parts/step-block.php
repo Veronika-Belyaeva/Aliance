@@ -3,6 +3,11 @@
   .steps-button-next {
     fill: <?= $color_button; ?>;
   }
+  @media (max-width: 1199px) {
+    .slider-buttons {
+      border: 1px solid <?= $colorBorder; ?>;
+    }
+  }
 </style>
 <section class="section section-light">
     <div class="container">

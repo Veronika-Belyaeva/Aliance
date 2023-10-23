@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-<meta charset="UTF-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <script>
     /*! modernizr 3.6.0 (Custom Build) | MIT *
     * https://modernizr.com/download/?-setclasses !*/
@@ -65,10 +67,10 @@
   </nav>
   <!-- /.navbar -->
 
-  <section class="section <?= $header_style ?>">
+  <section class="section-other <?= $header_style ?>">
     <div class="container accessory">
-      <div class="seporator"></div>
-          <h1 class="section-title about-title">
+      <div class="seporator seporator-other"></div>
+          <h1 class="section-title other-title">
             <?php echo $page_title ?>
           </h1>
           <ul class="breadcrumb">

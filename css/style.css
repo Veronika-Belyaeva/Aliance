@@ -234,15 +234,15 @@ body {
 .header-features-ag-tech {
   display: flex;
   min-height: 10.5rem;
-  margin-bottom: 0;
   padding: 0;
   margin-top: 4.9rem;
-  margin-bottom: 4.9rem;
+  margin-bottom: 4.6rem;
   list-style: none;
   position: relative;
 }
 .header-features-item {
   padding: 1.1875rem 2.375rem;
+  padding-bottom: 1.5875rem;
   min-height: 100%;
   max-width: 14.4rem;
   height: auto;
@@ -262,6 +262,7 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  display: none;
 }
 .primary {
   display: flex;
@@ -275,7 +276,7 @@ body {
 .header-features-text {
   width: 8.9688rem;
   margin-right: .5625rem;
-  margin-top: 0.425rem;
+  margin-top: 0.59rem;
   margin-bottom: 0;
   font-size: .75rem;
   line-height: 163%;
@@ -288,6 +289,11 @@ body {
   margin-top: 7.6rem;
   margin-bottom: 18.2rem;
   word-spacing: -0.1375rem;
+}
+.section-other {
+  margin-top: 3.2rem;
+  word-spacing: -0.1375rem;
+  margin-bottom: -2.1rem;
 }
 .section-title,
 .section-title-different {
@@ -509,10 +515,57 @@ body {
 .mark:hover .mark-title {
   color: #5C8EE5;
 }
-.founder {
+.founder,
+.about {
   position: relative;
   min-height: 31.049999999999997rem;
   margin-bottom: 9.55rem;
+}
+.about {
+  margin-bottom: -6.99rem;
+}
+.about-photo {
+  position:absolute;
+  left: 12.2rem;
+  top: 0;
+  object-fit: cover;
+  height: 77%;
+}
+.about-content {
+  max-width: 43.2rem;
+  margin-right: 6rem;
+  padding-top: 1.57rem;
+}
+.about-text {
+  color: #828A99;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: -1.22rem;
+  word-spacing: 0.01rem;
+  margin-bottom: 1.125rem;
+  padding-right: 1.4rem;
+  letter-spacing: 0.1px;
+}
+.our_production-photo {
+  margin-top: -2.6rem;
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  height: 37.55rem;
+  width: 29.5rem;
+}
+.our-production-text {
+  padding-right: -0.25rem;
+  color: #828A99;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 159%;
+  margin-top: -1.22rem;
+  margin-bottom: 2rem;
+  word-spacing: .0481rem;
 }
 .founder-photo {
   position:absolute;
@@ -1020,13 +1073,14 @@ body {
   object-fit: cover;
 }
 .breadcrumb {
-  padding: .625rem 1rem;
+  padding: 0;
   list-style: none;
-  padding-bottom: 3.125rem;
+  padding-bottom: 2.125rem;
 }
 .breadcrumb-item {
   display: inline;
-  font-size: .875rem;
+  font-size: .7rem;
+  letter-spacing: .0056rem;
 }
 .breadcrumb li+li:before {
   padding: .5rem;
@@ -1048,10 +1102,10 @@ body {
 .bg-photo .about-title {
   color: white;
 }
-.about-title {
+.other-title {
   font-family: 'Bebas Neue Regular';
   color: #292D33;
-  font-size: 5rem;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
@@ -1162,7 +1216,11 @@ body {
 @media (max-width: 1199px) {
   .slider-buttons {
     border: 1px solid rgba(235, 235, 240, 0.20);
-    height: 44px;
+    height: 36px;
+  }
+  .slider-button-prev,
+  .slider-button-next {
+    display: block;
   }
   .header-content {
     padding-top: 2.8rem;
@@ -1188,6 +1246,12 @@ body {
     .steps-buttons {
     display: flex;
   }
+  .about-photo {
+    left: 3.2rem;
+  }
+  .about-content {
+    margin-right: -3rem;
+  }
 }
 @media (max-width: 1120px) {
   .container {
@@ -1195,6 +1259,7 @@ body {
   }
   .header-features {
     margin-top: 1.875rem;
+    margin-bottom: 0.3rem;
   }
   .header-phone{
     display: none;
@@ -1251,6 +1316,12 @@ body {
   .founder-content {
     max-width: 40rem;
   }
+  .about-content {
+    margin-right: 6rem;
+  }
+  .about-text {
+    margin-bottom: 7.125rem;
+  }
 }
 @media (max-width: 1014px) {
   html {
@@ -1279,7 +1350,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 24px 20px;
+    padding: 19px 20px;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
   .navbar-light .mobile-menu-line {
@@ -1400,6 +1471,15 @@ body {
   }
   .footer-menu-wrapper:last-child {
     margin-left: 5rem;
+  }
+}
+@media (max-width: 853px) {
+  .about-photo {
+    height: 18.75rem;
+    width: 18.75rem;
+    margin-left: 24.8125rem;
+    position: relative;
+    margin-bottom: 3.125rem;
   }
 }
 @media (max-width: 770px) {
@@ -1537,6 +1617,9 @@ body {
   }
   .modal {
     height: 88%;
+  }
+  .about-photo {
+    margin-left: 3.8125rem;
   }
 }
 @media (max-width: 576px) {
@@ -1730,5 +1813,50 @@ body {
   }
   .accessory {
     max-width: 27.7rem;
+  }
+  .seporator-other {
+    margin-top: 2.1rem;
+  }
+  .other-title {
+    font-size: 3.3rem;
+    margin-top: 1.1rem;
+    letter-spacing: 0.6px;
+    margin-bottom: 1.725rem;
+  }
+  .breadcrumb-item {
+    font-size: 0.9rem;
+    letter-spacing: 0.2px;
+  }
+  .breadcrumb {
+    padding-bottom: 3.4rem;
+  }
+  .about-photo {
+    height: 280px;
+    width: 280px;
+    margin-left: -2.7375rem;
+    margin-bottom: 0.78rem;
+  }
+  .about {
+    margin-top: 6rem;
+  }
+  .about-title {
+    font-size: 2.4rem;
+    margin-left: -1.6rem;
+    margin-bottom: 25px;
+  }
+  .about-text {
+    margin-left: -1.6rem;
+    font-size: 1rem;
+  }
+  .about-content {
+    margin-right: -0.6rem;
+  }
+  .header-features-ag-tech {
+    margin-top: 3.7rem;
+    margin-left: -1.96rem;
+    margin-bottom: 0.1rem;
+  }
+  .header-features-text {
+    margin-top: 0.6rem;
   }
 }
