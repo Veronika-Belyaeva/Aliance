@@ -96,7 +96,12 @@
    include_once('./template-parts/section-production.php')?>
   <?php $block_title = "Собственные торговые марки"; 
   include_once('./template-parts/trademarks-block.php') ?>
-  <?php include_once('./template-parts/founder-block.php'); ?>
+  <?php $styleText = 'founder-text';
+  $stylePhoto = 'founder-photo';
+  $buttonText = 'Подробнее о компании';
+  $styleButton = 'button-link';
+  $styleWrapper = 'founder-content-wrapper';
+  include_once('./template-parts/founder-block.php'); ?>
   <?php include_once('./template-parts/clients-block.php');?>
   <!-- /.section clients -->
   <?php $block_title = "Блог экспертов в области производства";

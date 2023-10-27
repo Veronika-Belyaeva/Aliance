@@ -1,9 +1,9 @@
 <section class="section clients">
     <div class="container">
-      <div class="seporator"></div>
       <div class="clients-wrapper">
         <div class="clients-content">
-          <h2 class="section-title">Производим аэрозольную продукцию для разных сфер</h2>
+          <div class="seporator"></div>
+          <h2 class="section-title <?= $styleTitle;?>">Производим аэрозольную продукцию для разных сфер</h2>
           <ul class="clients-list">
             <li class="clients-list-item">
               <svg height="25" width="25" class="clients-list-icon">
