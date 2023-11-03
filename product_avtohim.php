@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <script>
     /*! modernizr 3.6.0 (Custom Build) | MIT *
     * https://modernizr.com/download/?-setclasses !*/
@@ -65,15 +67,15 @@
     </nav>
     <!-- /.navbar -->
   
-    <section class="section bg-grey">
+    <section class="section bg-grey avtohim">
       <div class="photo">
         <img class="first" src="/img/avto_H.png" alt="">
         <img class="second" src="/img/photo_H1.png" alt="">
         <img class="first" src="/img/avto_H.png" alt="">
       </div>
       <div class="container accessory">
-        <div class="seporator"></div>
-        <h1 class="section-title about-title">
+        <div class="seporator seporator-him"></div>
+        <h1 class="section-title him-title">
           Автомобильная химия
         </h1>
         <ul class="breadcrumb">
@@ -83,11 +85,250 @@
         </ul>
       </div>
     </section>
+
+    <section class="section about">
+  <picture>
+    <source type="image/webp" srcset="img/tima.webp">
+    <source type="image/jpeg" srcset="img/tima.png">
+    <img src="img/tima.png" alt="" class="him-photo">
+  </picture>
+    <div class="container">
+      <div class="him-content-wrapper">
+        <div class="about-content">
+          <div class="seporator"></div>
+          <h2 class="section-title about-title product-title">Контрактное производство автомобильной химии</h2>
+          <p class="him-text">
+            Прежде всего, начало повседневной работы по формированию позиции однозначно фиксирует необходимость приоритизации разума над эмоциями. Кстати, представители современных социальных резервов неоднозначны и будут описаны максимально подробно.</p>
+          <p class="him-text">
+            Но социально-экономическое развитие напрямую зависит от поставленных обществом задач! Безусловно, постоянный количественный рост и сфера нашей активности предоставляет широкие возможности для системы обучения кадров, соответствующей насущным потребностям. В целом, конечно, выбранный нами инновационный путь обеспечивает широкому кругу (специалистов) участие в формировании своевременного выполнения сверхзадачи. А ещё элементы политического процесса представлены в исключительно положительном свете. Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высокотехнологичная концепция общественного уклада создаёт предпосылки для глубокомысленных рассуждений. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.
+          </p>
+        </div>
+      </div>
+      <!-- /.founder-content-wrapper -->
+    </div>
+  </section>
+
     <?php
     $container = 'container';
     $colorText = 'header-features-ag-tech';
     $colorBorder = 'rgba(235, 235, 240, 1)';
     include_once('./template-parts/features-block.php'); ?>
+
+
+<section class="section section-other section-avto">
+    <div class="container">
+      <div class="clients-wrapper">
+        <div class="clients-content our-production-content">
+          <div class="seporator"></div>
+          <h2 class="section-title about-title avto-title">Изготовление автохимии</h2>
+          <picture>
+            <source type="image/webp" srcset="img/Nilov.webp">
+            <source type="image/jpeg" srcset="img/Nilov.png">
+            <img src="img/Nilov.png" alt="Косметическая продукция" class="avto-him-photo2">
+          </picture> 
+          <p class="avto-text">
+            Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач. </p> 
+          <ul class="our-production-list">
+            <li class="our-production-item">
+              <svg height="25" width="25" class="clients-list-icon">
+                <use href="img/sprite.svg#him"></use>
+              </svg>
+              Полное описание товаров
+            </li>
+            <li class="clients-list-item">
+              <svg height="25" width="25" class="clients-list-icon">
+                <use href="img/sprite.svg#car"></use>
+              </svg>
+              Актуальные цены
+            </li>
+            <li class="clients-list-item">
+              <svg height="25" width="25" class="clients-list-icon">
+                <use href="img/sprite.svg#him"></use>
+              </svg>
+              Полное описание товаров
+            </li>
+            <li class="clients-list-item">
+              <svg height="25" width="25" class="clients-list-icon">
+                <use href="img/sprite.svg#car"></use>
+              </svg>
+              Актуальные цены
+            </li>
+            <li class="clients-list-item">
+              <svg height="25" width="25" class="clients-list-icon">
+                <use href="img/sprite.svg#brush"></use>
+              </svg>
+              Лаки и краски
+            </li>
+            <li class="clients-list-item">
+              <svg height="25" width="25" class="clients-list-icon">
+                <use href="img/sprite.svg#him"></use>
+              </svg>
+              Химические производства
+            </li>
+            <li class="clients-list-item">
+              <svg height="25" width="25" class="clients-list-icon">
+                <use href="img/sprite.svg#brush"></use>
+              </svg>
+              Лаки и краски
+            </li>
+            <li class="clients-list-item">
+              <svg height="25" width="25" class="clients-list-icon">
+                <use href="img/sprite.svg#him"></use>
+              </svg>
+              Химические производства
+            </li>
+          </ul>
+        </div>
+        <picture>
+          <source type="image/webp" srcset="img/Nilov.webp">
+          <source type="image/jpeg" srcset="img/Nilov.png">
+          <img src="img/Nilov.png" alt="our production" class="avto-him-photo">
+        </picture>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="section section-other section-avto">
+    <div class="container">
+        <div class="clients-content our-production-content">
+          <div class="seporator"></div>
+          <h2 class="section-title about-title avto-title">Виды автохимии</h2> 
+          <p class="avto-text type-text">
+            Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям. </p> 
+          <ul class="avto-list">
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Антискотч
+            </li>
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Многоцелевая смазка
+            </li>
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Жидкий ключ
+            </li>
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Высокотемпературная смазка
+            </li>
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Универсальный очиститель деталей
+            </li>
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Силиконовая смазка
+            </li>
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Цепная смазка
+            </li>
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Медная смазка
+            </li>
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Графитовая смазка
+            </li>
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Очиститель кондиционера пенный
+            </li>
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Очиститель тормозных дисков
+            </li>
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Очиститель битумных пятен
+            </li>
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Очиститель кондционера
+            </li>
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Очиститель дросельной заслонки
+            </li>
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Очиститель обивки
+            </li>
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Тефлоновая смазка
+            </li>
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Очиститель двигателя
+            </li>
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Универсальный очиститель
+            </li>
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Чернитель шин 
+            </li>
+            <li class="our-production-item avto-item">
+              <svg height="10" width="15" class="clients-list-icon">
+                <use href="img/sprite.svg#bold"></use>
+              </svg>
+              Чернитель шин + очистка
+            </li>
+          </ul>
+        </div>
+    </div>
+  </section>
+
+
+  <?php $styleText = 'avto-blog-text';
+  $styleBlogSlider = 'avto-blog-slider';
+  include_once('./template-parts/blog-science.php'); ?>
+  <?php include_once('./template-parts/step-block.php'); ?>
     <?php include_once('footer.php'); ?>
     <?php include_once('modal.php'); ?>
   </body>

@@ -71,7 +71,7 @@
     <p class="modal-text">
       Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
     </p>
-    <button class="button">
+    <button class="button button-thanks">
       Вернуться на главную
     </button>
   </div>

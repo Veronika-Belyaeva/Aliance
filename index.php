@@ -96,7 +96,8 @@
    include_once('./template-parts/section-production.php')?>
   <?php $block_title = "Собственные торговые марки"; 
   include_once('./template-parts/trademarks-block.php') ?>
-  <?php $styleText = 'founder-text';
+  <?php $buttonText = 'Подробнее о компании';
+  $styleText = 'founder-text';
   $stylePhoto = 'founder-photo';
   $buttonText = 'Подробнее о компании';
   $styleButton = 'button-link';

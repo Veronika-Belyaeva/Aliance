@@ -6,7 +6,7 @@
         echo '<h2 class="section-title">'. $block_title . '</h2>';
       }
       ?>
-      <div class="cards">
+      <div class="cards <?= $cardStyle?>">
         <a href="/product_avtohim.php" class="card">
           <div class="card-content">
             <h3 class="card-title">Автомобильная химия</h3>
