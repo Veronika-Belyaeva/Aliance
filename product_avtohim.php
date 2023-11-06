@@ -327,8 +327,16 @@
 
   <?php $styleText = 'avto-blog-text';
   $styleBlogSlider = 'avto-blog-slider';
+  $styleButton = 'avto-blog-button';
   include_once('./template-parts/blog-science.php'); ?>
-  <?php include_once('./template-parts/step-block.php'); ?>
+  <?php $color_button = '#fff';
+  $styleSteps = 'steps-production';
+  $styleTitle = 'production-title';
+  include_once('./template-parts/step-block.php'); ?>
+    <?php $styleLogo = 'clients-production-logo';
+    $styleList = 'clients-production-list';
+    $styleWrapper = 'clients-production-wrapper';
+    include_once('./template-parts/clients-block.php');?>
     <?php include_once('footer.php'); ?>
     <?php include_once('modal.php'); ?>
   </body>

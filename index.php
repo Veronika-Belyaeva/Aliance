@@ -104,7 +104,6 @@
   $styleWrapper = 'founder-content-wrapper';
   include_once('./template-parts/founder-block.php'); ?>
   <?php include_once('./template-parts/clients-block.php');?>
-  <!-- /.section clients -->
   <?php $block_title = "Блог экспертов в области производства";
   $blog_button = "Весь блог";
   include_once('./template-parts/blog-block.php');?>

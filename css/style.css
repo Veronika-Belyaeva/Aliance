@@ -236,7 +236,7 @@ body {
   min-height: 10.5rem;
   padding: 0;
   margin-top: 4.9rem;
-  margin-bottom: 4.6rem;
+  margin-bottom: -2.4000000000000004rem;
   list-style: none;
   position: relative;
 }
@@ -320,9 +320,24 @@ body {
   gap: 8px;
   max-width: 1145px;
 }
+.steps-production {
+  margin-bottom: -167px;
+}
 .steps-item {
   width: 17.4844rem;
   margin-right: 0px;
+}
+.production-title {
+  font-family: 'Bebas Neue Book';
+  color: #292D33;
+  font-size: 3.1562rem;
+  line-height: 120%;
+  max-width: 39rem;
+  margin-bottom: 3.3rem;
+  margin-top: 1.525rem;
+  margin-bottom: 2.5625rem;
+  word-spacing: -0.9px;
+  letter-spacing: 1.7px;
 }
 .steps-num {
   font-family: 'Bebas Neue Book';
@@ -355,7 +370,7 @@ body {
 .steps-text {
   color: #828A99;
   font-family: 'Noto Sans', sans-serif;
-  font-size: 12px;
+  font-size: 12.7px;
   font-weight: 400;
   width: 239px;
   margin-right: 0px;
@@ -408,6 +423,12 @@ body {
 .button-founder:hover:before,
 .button-link:hover:before {
   width: 50px;
+}
+.button-founder {
+  display: none;
+}
+.button-founder::before {
+  display: none;
 }
 .production {
   margin-top: -12rem;
@@ -503,6 +524,10 @@ body {
   flex-wrap: wrap;
   margin-bottom: 71px;
 }
+.production-marks {
+  margin-top: 15.8125rem;
+  margin-bottom: 18.125rem;
+}
 .mark {
   flex-basis: 45.4%;
   border: 1px solid #EBEBF0;
@@ -519,6 +544,9 @@ body {
   grid-template-areas: 
     "logo title title"
     "logo text text";
+}
+.production-mark {
+  flex-basis: 40.0%;
 }
 .marks-image {
   grid-area: logo;
@@ -767,6 +795,12 @@ body {
   margin-top: 1.5rem;
   max-width: 1398px;
 }
+.general-list {
+  list-style-type: none;
+  padding: 0;
+  columns: 2 auto;
+  margin-top: -0.5999999999999996rem;
+}
 .our-production-item,
 .clients-list-item:not(:last-child) {
   padding-bottom: 1.07rem;
@@ -819,6 +853,18 @@ body {
 }
 .clients-logo-item:hover {
   filter: none;
+}
+.clients-production-logo {
+  height: 3.95rem;
+  width: 3.95rem;
+}
+.clients-production-list {
+  margin-top: 2.5625rem;
+  margin-right: 10rem;
+}
+.clients-production-wrapper {
+  gap: 0;
+  margin-bottom: 20rem;
 }
 .blog {
   margin-top: -10.6rem;
@@ -892,6 +938,9 @@ body {
   margin-bottom: -0.1875rem;
   justify-content: end;
 }
+.ag-footer {
+  margin-bottom: -0.3875rem;
+}
 .blog-slider-footer {
   display: flex;
   align-items: center;
@@ -900,6 +949,11 @@ body {
 }
 .avto-blog-slider {
   min-height: 22.1rem;
+}
+.avto-blog-button {
+  margin-right: 14.9375rem;
+  margin-top: 1.8rem;
+  margin-bottom: 8.9rem;
 }
 .bg-grey {
   background: #F0F2F5;
@@ -950,7 +1004,7 @@ body {
 }
 .cta-form {
   max-width: 52.5rem;
-  margin-right: 17.4375rem;
+  margin-right: 6.4375rem;
 }
 .cta-form-text {
   color: #828A99;
@@ -1316,6 +1370,10 @@ body {
   margin-top: 3.5999999999999996rem;
   margin-bottom: -1.125rem;
 }
+.ag-tech {
+  margin-top: 3rem;
+  margin-bottom: -2.125rem;
+}
 .photo {
   display: flex;
   align-items: center;
@@ -1326,6 +1384,26 @@ body {
   min-width: 84rem;
   width: 38%;
   height: 33.125rem;
+}
+.photo-ag {
+  min-width: 77rem;
+  height: 36.125rem;
+}
+.ag-photo {
+  height: 37.3rem;
+  width: 30rem;
+}
+.ag-content {
+  margin-right: 14.8rem;
+}
+.ag-title {
+  margin-bottom: 1.5rem;
+  margin-top: 0.8rem;
+}
+.ag-text {
+  font-size: 0.8rem;
+  max-width: 576px;
+  margin-bottom: .5625rem;
 }
 .first {
   margin-right: -2.8125rem;
@@ -1347,6 +1425,73 @@ body {
   font-weight: 400;
   line-height: 160%;
 }
+.general-title {
+  color: #292D33;
+  font-family: 'Bebas Neue Book';
+  font-size: 3.0rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  margin-top: 1.25rem;
+  letter-spacing: 0.6px;
+}
+.general-text {
+  color: #828A99;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 170%;
+  margin-top: -1.3125rem;
+  margin-bottom: -0.1875rem;
+  word-spacing: 0.1px;
+}
+.ag-list {
+  max-width: 559px;
+  margin-bottom: 1.625rem;
+}
+.button-ag {
+  display: flex;
+  font-size: .85rem;
+  letter-spacing: -0.03px;
+  width: 14.625rem;
+  padding: 1.2rem 3rem;
+}
+.ag-item {
+  gap: 0.6rem;
+  padding-bottom: 0.8rem;
+}
+.general-photo {
+  position: relative;
+  height: 541px;
+}
+.general-wrapper {
+  max-width: 36.25rem;
+  margin-top: 4.1875rem;
+}
+.wrapper {
+  display: flex;
+  margin-bottom: -10.9375rem;
+}
+.ag-him-text {
+  line-height: 160%;
+}
+.ag-him-list {
+  max-width: 1266px;
+}
+.ag-button {
+  margin-right: 10.399999999999999rem;
+  margin-top: 1.2rem;
+  margin-bottom: 6.899999999999999rem;
+}
+.ag-him-step {
+  margin-bottom: -13.3125rem;
+}
+.ag-him-List {
+  margin-bottom: 0.825rem;
+}
+.ag-section {
+  margin-top: -13.375rem;
+}
+
 @media (max-width: 1920px) {
   html {
     font-size: 1rem;
@@ -1372,6 +1517,26 @@ body {
     bottom: 18.4rem;
     min-width: 80rem;
   }
+  .production-marks {
+    margin-bottom: 16.125rem;
+  }
+  .photo-ag {
+    bottom: 13.8rem;
+  }
+  .second {
+    width: 98.19999999999999px;
+    height: 159.60000000000002px;
+  }
+  .first {
+    width: 93.19999999999999px;
+    height: 132.60000000000002px;
+  }
+  .ag-content {
+    margin-right: 4.800000000000001rem;
+  }
+  .general-photo {
+    height: 420px;
+  }
 }
 @media (max-width: 1330px) {
   .clients-content {
@@ -1389,6 +1554,9 @@ body {
   .him-content-wrapper {
     margin-right: -7.75rem;
   }
+  .cta-form {
+    margin-right: 5.4375rem;
+  }
 }
 @media (max-width: 1280px) {
   .footer-phone {
@@ -1396,6 +1564,9 @@ body {
   }
   .footer-info {
     padding-left: 2rem;
+  }
+  .ag-text-second {
+    margin-bottom: 3.3125rem;
   }
 }
 @media (max-width: 1252px) {
@@ -1427,6 +1598,9 @@ body {
   }
   .card-text {
     margin-bottom: 22.6rem;
+  }
+  .photo-ag {
+    bottom: 17.9rem;
   }
 }
 @media (max-width: 1199px) {
@@ -1479,6 +1653,20 @@ body {
     position: relative;
     left: 15rem;
   }
+  .general-photo {
+    height: 371px;
+  }
+  .header-features-ag-tech {
+    margin-bottom: 0.5999999999999996rem;
+  }
+}
+@media (max-width: 1125px) {
+  .wrapper {
+    display: grid;
+  }
+  .deneral-photo {
+    position: absolute;
+  }
 }
 @media (max-width: 1120px) {
   .container {
@@ -1509,6 +1697,7 @@ body {
   }
   .primary-buttons-wrapper {
     height: 3.25rem;
+    margin-right: 6.5rem;
   }
   .cta-image {
     display: none;
@@ -1541,6 +1730,11 @@ body {
   .founder-our-production-wrapper {
     margin-right: -0.0625rem;
   }
+  .avto-him-photo {
+    height: 30.75rem;
+    width: 41rem;
+    margin-right: -13.125rem;
+  }
 } 
 @media (max-width: 1010px) {
   .founder-content {
@@ -1556,6 +1750,9 @@ body {
   .avto-him-photo {
     height: 35.55rem;
     width: 40rem;
+  }
+  .avto-him-list {
+    max-width: 888px;
   }
 }
 @media (max-width: 1014px) {
@@ -1767,7 +1964,7 @@ body {
     width: 100%;
     margin-bottom: -3.375rem;
     margin-top: -1.4rem;
-    height: 21.400000000000006rem;
+    height: 39.400000000000006rem;
     margin-bottom: -0.5rem;
   }
   .our-production-founder-photo {
@@ -1901,6 +2098,9 @@ body {
   .buttom-founder {
     display: block;
   }
+  .button-founder::before {
+    display: block;
+  }
   .section-our {
     margin-top: 7.1rem;
   }
@@ -1919,6 +2119,18 @@ body {
   }
   .him-content-wrapper {
     margin-right: -4.75rem;
+  }
+  .avto-list {
+    columns: 1;
+  }
+  .button-founder {
+    display: block;
+  }
+}
+@media (max-width: 629px) {
+  .general-photo {
+    height: 274px;
+    margin-left: -3.9375rem;
   }
 }
 @media (max-width: 576px) {
@@ -2029,7 +2241,7 @@ body {
   }
   .blog-slider-about-footer {
     margin-right: 1.9375rem;
-    margin-top: -4.91rem;
+    margin-top: 1.25rem;
   }
   .primary-buttons-wrapper {
     margin-right: 1.9125rem;
@@ -2139,8 +2351,9 @@ body {
   .other-title {
     font-size: 3.3rem;
     margin-top: 1.1rem;
-    letter-spacing: 0.6px;
+    letter-spacing: 1.3px;
     margin-bottom: 1.725rem;
+    max-width: 22.25rem;
   }
   .breadcrumb-item {
     font-size: 0.9rem;
@@ -2148,6 +2361,8 @@ body {
   }
   .breadcrumb {
     padding-bottom: 3.4rem;
+    max-width: 290px;
+    line-height: 170%;
   }
   .about-photo {
     height: 280px;
@@ -2193,7 +2408,7 @@ body {
     max-width: 26.700000000000003rem;
   }
   .avtohim {
-    width: 115%;
+    width: 100%;
   }
   .him-text {
     max-width: 299px;
@@ -2201,5 +2416,54 @@ body {
   }
   .avto-him-photo {
     margin-left: -7.75rem;
+  }
+  .production-marks {
+    margin-top: 6.8125rem;
+    margin-bottom: 10.125rem;
+  }
+  .ag-tech {
+    width: 100%;
+  }
+  .ag-title {
+    max-width: 29.5rem;
+  }
+  .ag-photo {
+    left: 3rem;
+    height: 31.299999999999997rem;
+    width: 25rem;
+    margin-bottom: -0.3125rem;
+  }
+  .ag-text {
+    margin-top: -1.5rem;
+    font-size: 1rem;
+  }
+  .ag-text-second {
+    margin-top: .7rem;
+    max-width: 274px;
+  }
+  .ag-wrapper {
+    margin-bottom: 10.2625rem;
+  }
+  .steps-item {
+    width: 280px;
+  }
+  .cards-contract {
+    margin-bottom: 7.0625rem;
+  }
+  .contract-production-text {
+    max-width: 18.6875rem;
+  }
+  .general-title {
+    font-size: 2.4rem;
+  }
+  .general-wrapper {
+    max-width: 24.25rem;
+  }
+  .general-text {
+    font-size: 1rem;
+  }
+  .general-photo {
+    height: 199px;
+    margin-left: -0.9375rem;
   }
 }

@@ -59,7 +59,7 @@ const swiperSteps = new Swiper(".steps-slider", {
       slidesPerView: 3,
     },
     // when window width is >= 640px
-    1024: {
+    1200: {
       slidesPerView: 4,
     },
   }

@@ -15,7 +15,7 @@
       <h2 class="section-title">схема работы</h2>
       <div class="swiper steps-slider">
         <!-- Additional required wrapper -->
-        <ol class="swiper-wrapper steps">
+        <ol class="swiper-wrapper steps <?= $styleSteps?>">
           <!-- Slides -->
           <li class="swiper-slide steps-item">
             <span class="steps-num">01</span>

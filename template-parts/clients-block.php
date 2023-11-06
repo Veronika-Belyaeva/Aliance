@@ -1,10 +1,10 @@
-<section class="section clients">
+<section class="section <?= $styleSection;?>">
     <div class="container">
-      <div class="clients-wrapper">
+      <div class="clients-wrapper <?= $styleWrapper; ?>">
         <div class="clients-content">
           <div class="seporator"></div>
           <h2 class="section-title <?= $styleTitle;?>">Производим аэрозольную продукцию для разных сфер</h2>
-          <ul class="clients-list">
+          <ul class="clients-list <?= $styleList; ?>">
             <li class="clients-list-item">
               <svg height="25" width="25" class="clients-list-icon">
                 <use href="img/sprite.svg#him"></use>
@@ -67,68 +67,68 @@
             </li>
           </ul>
         </div>
-        <div class="clients-logo-list">
+        <div class="clients-logo-list <?= $styleList; ?> ">
           <a href="#" class="clients-logo-item">
           <picture>
             <source type="image/webp" srcset="img/client.webp">
             <source type="image/jpeg" srcset="img/client.jpg">
-            <img src="img/founder.jpg" alt="client" class="clients-logo">
+            <img src="img/founder.jpg" alt="client" class="clients-logo <?= $styleLogo ;?>">
           </picture>  
           </a>
           <a href="#" class="clients-logo-item">
           <picture>
             <source type="image/webp" srcset="img/client.webp">
             <source type="image/jpeg" srcset="img/client.jpg" class="clients-logo">
-            <img src="img/founder.jpg" alt="client" class="clients-logo">
+            <img src="img/founder.jpg" alt="client" class="clients-logo <?= $styleLogo ;?>">
           </picture>  
           </a>
           <a href="#" class="clients-logo-item">
           <picture>
             <source type="image/webp" srcset="img/client.webp">
             <source type="image/jpeg" srcset="img/client.jpg">
-            <img src="img/founder.jpg" alt="client" class="clients-logo">
+            <img src="img/founder.jpg" alt="client" class="clients-logo <?= $styleLogo ;?>">
           </picture>  
           </a>
           <a href="#" class="clients-logo-item">
           <picture>
             <source type="image/webp" srcset="img/client.webp">
             <source type="image/jpeg" srcset="img/client.jpg">
-            <img src="img/founder.jpg" alt="client" class="clients-logo">
+            <img src="img/founder.jpg" alt="client" class="clients-logo <?= $styleLogo ;?>">
           </picture>  
           </a>
           <a href="#" class="clients-logo-item">
           <picture>
             <source type="image/webp" srcset="img/client.webp">
             <source type="image/jpeg" srcset="img/client.jpg">
-            <img src="img/founder.jpg" alt="client" class="clients-logo">
+            <img src="img/founder.jpg" alt="client" class="clients-logo <?= $styleLogo ;?>">
           </picture>  
           </a>
           <a href="#" class="clients-logo-item">
           <picture>
             <source type="image/webp" srcset="img/client.webp">
             <source type="image/jpeg" srcset="img/client.jpg">
-            <img src="img/founder.jpg" alt="client" class="clients-logo">
+            <img src="img/founder.jpg" alt="client" class="clients-logo <?= $styleLogo ;?>">
           </picture>  
           </a>
           <a href="#" class="clients-logo-item">
           <picture>
             <source type="image/webp" srcset="img/client.webp">
             <source type="image/jpeg" srcset="img/client.jpg">
-            <img src="img/founder.jpg" alt="client" class="clients-logo">
+            <img src="img/founder.jpg" alt="client" class="clients-logo <?= $styleLogo ;?>">
           </picture>  
           </a>
           <a href="#" class="clients-logo-item">
           <picture>
             <source type="image/webp" srcset="img/client.webp">
             <source type="image/jpeg" srcset="img/client.jpg">
-            <img src="img/founder.jpg" alt="client" class="clients-logo">
+            <img src="img/founder.jpg" alt="client" class="clients-logo <?= $styleLogo ;?>">
           </picture>  
           </a>
           <a href="#" class="clients-logo-item">
           <picture>
             <source type="image/webp" srcset="img/client.webp">
             <source type="image/jpeg" srcset="img/client.jpg">
-            <img src="img/founder.jpg" alt="client" class="clients-logo">
+            <img src="img/founder.jpg" alt="client" class="clients-logo <?= $styleLogo ;?>">
           </picture>  
           </a>
         </div>

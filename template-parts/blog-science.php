@@ -1,8 +1,10 @@
+
+
 <section>
     <div class="container">
       <div class="seporator"></div>
       <h2 class="section-title about-title">Исследовательский центр Aliance production</h2>
-      <ul class="our-production-list">
+      <ul class="our-production-list avto-him-list <?= $styleList; ?>">
         <li class="our-production-item">
           <p class="our-production-research-text <?= $styleText ?>">
             Явные признаки победы институционализации рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Приятно, граждане, наблюдать, как активно развивающиеся страны третьего мира могут быть ограничены исключительно образом мышления. Лишь независимые государства набирают популярность среди определенных слоев населения, а значит, должны быть указаны как претенденты на роль ключевых факторов. Лишь акционеры крупнейших компаний могут быть призваны к ответу.</p>
@@ -23,7 +25,7 @@
             <picture>
               <source type="image/webp" srcset="img/blog/blog-photo.webp">
               <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
-              <img src="img/blog/blog-photo.jpg" alt="blog" class="blog-card-image blog-about-photo">
+              <img src="img/blog/blog-photo.jpg" alt="blog" class="blog-card-image">
             </picture>  
           </a>
           <a href="#" class="swiper-slide blog-card-about <?= $styleBlogSlider ?>">
@@ -48,14 +50,9 @@
             </picture> 
           </a>
         </div>
-        <div class="blog-slider-about-footer">
-          <?php
-            if(!empty($blog_button)) {
-              echo '<a href="/blog.php" class="button-link">'. $blog_button . '</a>';
-            }
-          ?>
+          
           <!-- If we need navigation buttons -->
-          <div class="blog-buttons primary-buttons-wrapper">
+          <div class="blog-buttons primary-buttons-wrapper blog-slider-about-footer <?= $styleButton;?>">
             <div class="blog-button-prev primary-button-prev">
               <svg width="30" height="24">
                 <use href="img/sprite.svg#arrow-prev"></use>
@@ -66,7 +63,6 @@
                 <use href="img/sprite.svg#arrow-next"></use>
               </svg> 
             </div>
-          </div>
         </div>
         <!-- /.blog-slider-footer -->
       </div>
