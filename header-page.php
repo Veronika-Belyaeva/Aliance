@@ -70,7 +70,7 @@
   <section class="section-other <?= $header_style ?>">
     <div class="container accessory">
       <div class="seporator seporator-other"></div>
-          <h1 class="section-title other-title">
+          <h1 class="section-title other-title <?= $styleTitle;?>">
             <?php echo $page_title ?>
           </h1>
           <ul class="breadcrumb">

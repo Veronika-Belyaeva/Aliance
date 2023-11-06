@@ -1363,6 +1363,9 @@ body {
   margin-bottom: 1.25rem;
   max-width: 69.9rem;
 }
+.now-title {
+  color: #fff;
+}
 .accessory {
   padding-top: 3.125rem;
 }
@@ -1491,7 +1494,125 @@ body {
 .ag-section {
   margin-top: -13.375rem;
 }
-
+.modern {
+  margin-top: -2.175rem;
+}
+.modern-wrapper {
+  display: flex;
+}
+.modern-button-text {
+  color: #828A99;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 160%;
+}
+.plan-block {
+  margin-left: 12.375rem;
+}
+.button-modern-item {
+  border: 1px solid #EBEBF0;
+  height: 2.3rem;
+  width: 2.3rem;
+  padding: 0.3rem;
+  margin-right: 10px;
+  transition: border 0.2s;
+}
+.button-modern-item:hover {
+  border: 1px solid #5C8EE5;
+}
+.button-wrapper {
+  margin-left: 12.125rem;
+}
+.button-messanger-list {
+  display: flex;
+  align-items: center;
+  margin-left: -2.6875rem;
+}
+.title-plan {
+  color: #292D33;
+  font-size: 1.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: -0.125rem;
+  margin-bottom: .9375rem;
+  letter-spacing: -0.9px;
+  word-spacing: 0.1px;
+}
+.plan-text {
+  color: #292D33;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 163%;
+  max-width: 47rem;
+  letter-spacing: -0.1px;
+  word-spacing: -0.1px;
+  margin-bottom: 1.25rem;
+}
+.consultation-block {
+  margin-left: 12.375rem;
+}
+.block-wrapper {
+  display: grid;
+}
+.height-kol {
+  color: #5C8EE5;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 160%;
+  text-decoration-line: underline;
+}
+.second-consultation {
+  margin-top: 1rem;
+}
+.consultation-text {
+  color:#292D33;;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 163%;
+  letter-spacing: 0.2px;
+  max-width: 776px;
+}
+.title-consultation {
+  color: #292D33;
+  font-size: 1.45rem;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: -0.2px;
+  margin-bottom: .9375rem;
+}
+.consultation-photo {
+  object-fit: cover;
+  height: 442px;
+  width: 768px;
+  margin-bottom: 1.4375rem;
+}
+.consultation-list {
+  list-style-type: none;
+  padding: 0;
+}
+.title-list {
+  color: #292D33;
+  font-size: 1.04rem;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: -0.2px;
+  margin-bottom: 1rem;
+}
+.colculation-item {
+  display: flex;
+  color: #292D33;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 160%;
+  gap: 10px;
+  max-width: 47.6rem;
+  margin-bottom: .5rem;
+}
+.consultation-item-text {
+  margin: 0;
+  letter-spacing: 0.2px;
+}
 @media (max-width: 1920px) {
   html {
     font-size: 1rem;
