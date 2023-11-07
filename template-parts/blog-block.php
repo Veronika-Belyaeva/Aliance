@@ -55,7 +55,7 @@
             </div>
           </a>
         </div>
-        <div class="blog-slider-footer">
+        <div class="blog-slider-footer <?= $styleFooter; ?>">
           <?php
             if(!empty($blog_button)) {
               echo '<a href="/blog.php" class="button-link">'. $blog_button . '</a>';

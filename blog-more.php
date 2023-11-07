@@ -60,7 +60,7 @@ include_once('header-page.php'); ?>
           <h2 class="title-list">Равным образом консультация с широким активом:</h2>
           <ol class="consultation-list">
             <li class="colculation-item">
-              <svg class="button-icon" width="16" height="15">
+              <svg class="button-icon" width="25" height="25">
                 <use href="img/sprite.svg#bold"></use>
               </svg>
               <p class="consultation-item-text">
@@ -68,7 +68,7 @@ include_once('header-page.php'); ?>
               </p>
             </li>
             <li class="colculation-item">
-              <svg class="button-icon" width="16" height="15">
+              <svg class="button-icon" width="25" height="25">
                 <use href="img/sprite.svg#bold"></use>
               </svg>
               <p class="consultation-item-text">
@@ -76,7 +76,7 @@ include_once('header-page.php'); ?>
               </p>
             </li>
             <li class="colculation-item">
-              <svg class="button-icon" width="16" height="15">
+              <svg class="button-icon" width="25" height="25">
                 <use href="img/sprite.svg#bold"></use>
               </svg>
               <p class="consultation-item-text">
@@ -84,7 +84,62 @@ include_once('header-page.php'); ?>
               </p>
             </li>
           </ol>
+          <h2 class="title-consultation">Равным образом консультация с широким активом</h2>
+          <p class="consultation-text equal-text">
+            С другой стороны рамки и место обучения кадров влечет за собой процесс внедрения и модернизации систем массового участия. <span class="equal">Равным образом консультация</span> с широким активом в значительной степени обуславливает создание дальнейших направлений развития. Идейные соображения высшего порядка, а также консультация с широким активом требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных задач. Равным образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации дальнейших направлений развития.
+          </p>
+          <ol class="consultation-list">
+            <li class="colculation-item">
+              <svg class="button-icon" width="40" height="35">
+                <use href="img/sprite.svg#first"></use>
+              </svg>
+              <p class="consultation-item-text">
+                Идейные соображения высшего порядка, а также консультация с широким активом требуют определения и уточнения позиций.
+              </p>
+            </li>
+            <li class="colculation-item">
+              <svg class="button-icon" width="30" height="25">
+                <use href="img/sprite.svg#second"></use>
+              </svg>
+              <p class="consultation-item-text">
+                С другой стороны консультация с широким активом позволяет оценить значение форм развития.
+              </p>
+            </li>
+            <li class="colculation-item">
+              <svg class="button-icon" width="40" height="35">
+                <use href="img/sprite.svg#third"></use>
+              </svg>
+              <p class="consultation-item-text">
+                Разнообразный и богатый опыт реализация намеченных плановых заданий позволяет выполнять важные задания.
+              </p>
+            </li>
+          </ol>
         </div>
+      </div>
+      <div class="button-wrapper none-button-wrapper">
+        <div class="modern-button-text">Поделиться:</div>
+        <ol class="button-messanger-list">
+          <a class="button-modern-item">
+            <svg width="25" height="19">
+              <use href="img/sprite.svg#vk"></use>
+            </svg>   
+          </a>
+          <a class="button-modern-item">
+            <svg width="25" height="19">
+              <use href="img/sprite.svg#facebook"></use>
+            </svg>   
+          </a>
+          <a class="button-modern-item">
+            <svg width="25" height="19">
+              <use href="img/sprite.svg#twitter"></use>
+            </svg>   
+          </a>
+          <a class="button-modern-item">
+            <svg width="25" height="19">
+              <use href="img/sprite.svg#google"></use>
+            </svg>   
+          </a>
+        </ol>
       </div>
     </div>
   </div>
@@ -95,5 +150,6 @@ include_once('header-page.php'); ?>
 
 <?php $block_title = "Так же вас может заинтересовать:";
 $color_button = '#fff';
+$styleFooter = 'blog-more-button';
 include_once('./template-parts/blog-block.php');?>
 <?php include_once('footer.php'); ?>

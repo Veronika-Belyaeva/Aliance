@@ -1003,8 +1003,7 @@ body {
   justify-content: flex-end;
 }
 .cta-form {
-  max-width: 52.5rem;
-  margin-right: 6.4375rem;
+  margin-right: 17.4375rem;
 }
 .cta-form-text {
   color: #828A99;
@@ -1511,9 +1510,10 @@ body {
 }
 .button-modern-item {
   border: 1px solid #EBEBF0;
-  height: 2.3rem;
-  width: 2.3rem;
+  height: 2.9rem;
+  width: 2.9rem;
   padding: 0.3rem;
+  padding-top: 4px;
   margin-right: 10px;
   transition: border 0.2s;
 }
@@ -1522,6 +1522,9 @@ body {
 }
 .button-wrapper {
   margin-left: 12.125rem;
+}
+.none-button-wrapper {
+  display: none;
 }
 .button-messanger-list {
   display: flex;
@@ -1551,6 +1554,7 @@ body {
 }
 .consultation-block {
   margin-left: 12.375rem;
+  margin-bottom: -2.5625rem;
 }
 .block-wrapper {
   display: grid;
@@ -1571,7 +1575,7 @@ body {
   font-weight: 400;
   line-height: 163%;
   letter-spacing: 0.2px;
-  max-width: 776px;
+  max-width: 48.5rem;
 }
 .title-consultation {
   color: #292D33;
@@ -1590,6 +1594,7 @@ body {
 .consultation-list {
   list-style-type: none;
   padding: 0;
+  margin-bottom: 2.5625rem;
 }
 .title-list {
   color: #292D33;
@@ -1606,12 +1611,25 @@ body {
   font-weight: 400;
   line-height: 160%;
   gap: 10px;
-  max-width: 47.6rem;
+  max-width: 48.6rem;
   margin-bottom: .5rem;
 }
 .consultation-item-text {
   margin: 0;
   letter-spacing: 0.2px;
+}
+.equal {
+  color: #292D33;
+  font-size: inherit;
+  font-weight: 600;
+  line-height: 160%;
+}
+.equal-text {
+  max-width: 44.625rem;
+}
+.blog-more-button {
+  justify-content: flex-end;
+  margin-right: 18.125rem;
 }
 @media (max-width: 1920px) {
   html {
@@ -1723,6 +1741,12 @@ body {
   .photo-ag {
     bottom: 17.9rem;
   }
+  .plan-block {
+    margin-left: 7.375rem;
+  }
+  .consultation-block {
+    margin-left: 7.375rem;
+  }
 }
 @media (max-width: 1199px) {
   .slider-buttons {
@@ -1779,6 +1803,9 @@ body {
   }
   .header-features-ag-tech {
     margin-bottom: 0.5999999999999996rem;
+  }
+  .button-wrapper {
+    margin-left: 4.125rem;
   }
 }
 @media (max-width: 1125px) {
@@ -1856,6 +1883,9 @@ body {
     width: 41rem;
     margin-right: -13.125rem;
   }
+  .button-wrapper {
+    margin-left: 1.125rem;
+  }
 } 
 @media (max-width: 1010px) {
   .founder-content {
@@ -1922,7 +1952,7 @@ body {
     display: none;
   }
   .navbar-button {
-    width: 85px;
+    width: 70px;
   }
   .navbar-button .button-icon {
     display:block;
@@ -2024,6 +2054,21 @@ body {
   }
   .footer-menu-wrapper:last-child {
     margin-left: 5rem;
+  }
+  .button-wrapper {
+    display: none;
+  }
+  .none-button-wrapper {
+    display: block;
+    margin-left: 7rem;
+    margin-top: 2.0625rem;
+  }
+  .modern-wrapper {
+    display: grid;
+  }
+  .consultation-photo {
+    height: 299px;
+    width: 530px;
   }
 }
 @media (max-width: 853px) {
@@ -2247,11 +2292,30 @@ body {
   .button-founder {
     display: block;
   }
+  .plan-block {
+    margin-left: 3.375rem;
+  }
+  .consultation-block {
+    margin-left: 3.375rem;
+  }
 }
 @media (max-width: 629px) {
   .general-photo {
     height: 274px;
     margin-left: -3.9375rem;
+  }
+  .now-title {
+    max-width: 25.25rem;
+  }
+  .consultation-photo {
+    height: 259px;
+    width: 402px;
+  }
+  .plan-text {
+    max-width: 35rem;
+  }
+  .consultation-text {
+    max-width: 35rem;
   }
 }
 @media (max-width: 576px) {
@@ -2586,5 +2650,91 @@ body {
   .general-photo {
     height: 199px;
     margin-left: -0.9375rem;
+  }
+  .title-plan {
+    max-width: 236px;
+  }
+  .title-consultation {
+    max-width: 300px;
+  }
+  .consultation-photo {
+    height: 18.6875rem;
+    width: 29.125rem;
+  }
+  .plan-text,
+  .consultation-text {
+    max-width: 20rem;
+  }
+  .consultation-list {
+    max-width: 222px;
+  }
+  .consultation-photo {
+    height: 17.6875rem;
+    width: 25.125rem;
+  }
+  .none-button-wrapper {
+    margin-left: 3rem;
+  }
+  .title-plan {
+    font-size: 2rem;
+    margin-top: 0.4rem;
+    line-height: 130%;
+    max-width: 265px;
+    letter-spacing: 0.1px;
+    margin-bottom: -0.2rem;
+  }
+  .plan-block,
+  .consultation-block {
+    margin-left: 1.1rem;
+  }
+  .plan-text {
+    font-size: 1rem;
+    max-width: 24rem;
+    line-height: 160%;
+    letter-spacing: 0.1px;
+    margin-bottom: .6625rem;
+  }
+  .now-title {
+    max-width: 29.25rem;
+    letter-spacing: 0.9px;
+  }
+  .title-consultation {
+    word-spacing: 2.2px;
+    margin-bottom: -0.6rem;
+    line-height: 148%;
+  }
+  .consultation-text {
+    font-size: 1rem;
+    line-height: 160%;
+    max-width: 25rem;
+    word-spacing: -0.1px;
+    letter-spacing: 0.1px;
+    margin-bottom: -0.3rem;
+    
+  }
+  .height-kol {
+    font-size: 1rem;
+  }
+  .consultation-photo {
+    margin-top: 2.5rem;
+    height: 14.3rem;
+    margin-bottom: 0.5rem;
+  }
+  .title-list {
+    font-size: 1.3rem;
+    line-height: 150%;
+    max-width: 280px;
+    word-spacing: 2.5px;
+  }
+  .consultation-item-text {
+    font-size: 1rem;
+    line-height: 170%;
+  }
+  .colculation-item {
+    gap: 16px;
+    width: 292px;
+  }
+  .consultation-list {
+    margin-bottom: 1.8rem;
   }
 }
