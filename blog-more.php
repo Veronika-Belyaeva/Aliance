@@ -60,7 +60,7 @@ include_once('header-page.php'); ?>
           <h2 class="title-list">Равным образом консультация с широким активом:</h2>
           <ol class="consultation-list">
             <li class="colculation-item">
-              <svg class="button-icon" width="25" height="25">
+              <svg class="colsultation-icon" width="17" height="16">
                 <use href="img/sprite.svg#bold"></use>
               </svg>
               <p class="consultation-item-text">
@@ -68,7 +68,7 @@ include_once('header-page.php'); ?>
               </p>
             </li>
             <li class="colculation-item">
-              <svg class="button-icon" width="25" height="25">
+              <svg class="colsultation-icon" width="17" height="16">
                 <use href="img/sprite.svg#bold"></use>
               </svg>
               <p class="consultation-item-text">
@@ -76,7 +76,7 @@ include_once('header-page.php'); ?>
               </p>
             </li>
             <li class="colculation-item">
-              <svg class="button-icon" width="25" height="25">
+              <svg class="colsultation-icon" width="17" height="16">
                 <use href="img/sprite.svg#bold"></use>
               </svg>
               <p class="consultation-item-text">
@@ -88,25 +88,25 @@ include_once('header-page.php'); ?>
           <p class="consultation-text equal-text">
             С другой стороны рамки и место обучения кадров влечет за собой процесс внедрения и модернизации систем массового участия. <span class="equal">Равным образом консультация</span> с широким активом в значительной степени обуславливает создание дальнейших направлений развития. Идейные соображения высшего порядка, а также консультация с широким активом требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных задач. Равным образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации дальнейших направлений развития.
           </p>
-          <ol class="consultation-list">
-            <li class="colculation-item">
-              <svg class="button-icon" width="40" height="35">
+          <ol class="consultation-list different-list">
+            <li class="colculation-item col-item">
+              <svg class="colsultation-icon" width="17" height="16">
                 <use href="img/sprite.svg#first"></use>
               </svg>
-              <p class="consultation-item-text">
+              <p class="consultation-item-text con-item-text">
                 Идейные соображения высшего порядка, а также консультация с широким активом требуют определения и уточнения позиций.
               </p>
             </li>
-            <li class="colculation-item">
-              <svg class="button-icon" width="30" height="25">
+            <li class="colculation-item col-item">
+              <svg class="colsultation-icon-second" width="17" height="16">
                 <use href="img/sprite.svg#second"></use>
               </svg>
               <p class="consultation-item-text">
                 С другой стороны консультация с широким активом позволяет оценить значение форм развития.
               </p>
             </li>
-            <li class="colculation-item">
-              <svg class="button-icon" width="40" height="35">
+            <li class="colculation-item col-item">
+              <svg class="colsultation-icon" width="17" height="16">
                 <use href="img/sprite.svg#third"></use>
               </svg>
               <p class="consultation-item-text">
@@ -144,9 +144,6 @@ include_once('header-page.php'); ?>
     </div>
   </div>
 </section>
-
-
-
 
 <?php $block_title = "Так же вас может заинтересовать:";
 $color_button = '#fff';

@@ -1,3 +1,4 @@
+ErrorDocument 404 http://aliance/404.php
 <IfModule mod_expires.c>
   Header append Cache-Control "public"
   FileETag MTime Size

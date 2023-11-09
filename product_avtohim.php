@@ -117,8 +117,8 @@
 
 <section class="section section-other section-avto">
     <div class="container">
-      <div class="clients-wrapper">
-        <div class="clients-content our-production-content">
+      <div class="our-production-wrapper">
+        <div class="our-production-content">
           <div class="seporator"></div>
           <h2 class="section-title about-title avto-title">Изготовление автохимии</h2>
           <picture>
@@ -135,43 +135,43 @@
               </svg>
               Полное описание товаров
             </li>
-            <li class="clients-list-item">
+            <li class="our-production-item">
               <svg height="25" width="25" class="clients-list-icon">
                 <use href="img/sprite.svg#car"></use>
               </svg>
               Актуальные цены
             </li>
-            <li class="clients-list-item">
+            <li class="our-production-item">
               <svg height="25" width="25" class="clients-list-icon">
                 <use href="img/sprite.svg#him"></use>
               </svg>
               Полное описание товаров
             </li>
-            <li class="clients-list-item">
+            <li class="our-production-item">
               <svg height="25" width="25" class="clients-list-icon">
                 <use href="img/sprite.svg#car"></use>
               </svg>
               Актуальные цены
             </li>
-            <li class="clients-list-item">
-              <svg height="25" width="25" class="clients-list-icon">
-                <use href="img/sprite.svg#brush"></use>
+            <li class="our-production-item">
+              <svg height="22" width="22" class="clients-list-icon">
+                <use href="img/sprite.svg#paints"></use>
               </svg>
               Лаки и краски
             </li>
-            <li class="clients-list-item">
+            <li class="our-production-item">
               <svg height="25" width="25" class="clients-list-icon">
                 <use href="img/sprite.svg#him"></use>
               </svg>
               Химические производства
             </li>
-            <li class="clients-list-item">
-              <svg height="25" width="25" class="clients-list-icon">
-                <use href="img/sprite.svg#brush"></use>
+            <li class="our-production-item">
+              <svg height="22" width="22" class="clients-list-icon">
+                <use href="img/sprite.svg#paints"></use>
               </svg>
               Лаки и краски
             </li>
-            <li class="clients-list-item">
+            <li class="our-production-item">
               <svg height="25" width="25" class="clients-list-icon">
                 <use href="img/sprite.svg#him"></use>
               </svg>
@@ -328,13 +328,14 @@
   <?php $styleText = 'avto-blog-text';
   $styleBlogSlider = 'avto-blog-slider';
   $styleButton = 'avto-blog-button';
+  $styleList = 'our-avto-list';
   include_once('./template-parts/blog-science.php'); ?>
   <?php $color_button = '#fff';
   $styleSteps = 'steps-production';
   $styleTitle = 'production-title';
   include_once('./template-parts/step-block.php'); ?>
     <?php $styleLogo = 'clients-production-logo';
-    $styleList = 'clients-production-list';
+    $styleList = 'clients-production-burger-list';
     $styleWrapper = 'clients-production-wrapper';
     include_once('./template-parts/clients-block.php');?>
     <?php include_once('footer.php'); ?>
