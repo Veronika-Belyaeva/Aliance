@@ -40,10 +40,10 @@
           <a href="#" class="header-nav-link">Собственные торговые марки</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Новости</a>
+          <a href="/politics.php" class="header-nav-link">Новости</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контакты</a>
+          <a href="/contact.php" class="header-nav-link">Контакты</a>
         </li>
       </ul>
   
@@ -94,7 +94,7 @@
   </picture>
     <div class="container">
       <div class="him-content-wrapper">
-        <div class="about-content">
+        <div class="about-content avtohim-content">
           <div class="seporator"></div>
           <h2 class="section-title about-title product-title">Контрактное производство автомобильной химии</h2>
           <p class="him-text">

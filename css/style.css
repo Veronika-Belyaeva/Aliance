@@ -408,7 +408,6 @@ body {
   font-size: 0.8rem;
   font-weight: 700;
   line-height: 160%;
-  gap: 4px;
   word-spacing: -0.5008px;
 }
 .button-founder::before,
@@ -546,7 +545,7 @@ body {
     "logo text text";
 }
 .production-mark {
-  flex-basis: 40.0%;
+  flex-basis: 45.5%;
 }
 .marks-image {
   grid-area: logo;
@@ -573,7 +572,8 @@ body {
   font-size: 0.8rem;
   font-weight: 400;
   line-height: 160%;
-  padding-right: 2.875rem;
+  padding-right: 0px;
+  max-width: 18.75rem;
 }
 .mark:hover {
   border-color: #5C8EE5;
@@ -591,8 +591,8 @@ body {
   margin-bottom: 9.55rem;
 }
 .about {
-  margin-bottom: -8.3125rem;
-  margin-top: 6.4375rem;
+  margin-bottom: -6.8125rem;
+  margin-top: 7.4375rem;
 }
 .about-photo {
   position:absolute;
@@ -609,9 +609,10 @@ body {
   width: 30rem;
   left: 12rem;
 }
+.ag-content,
 .about-content {
   max-width: 43.2rem;
-  margin-right: 13.6rem;
+  margin-right: 6rem;
   padding-top: 1.57rem;
 }
 .about-text {
@@ -619,9 +620,9 @@ body {
   font-size: 0.8rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 160%;
+  line-height: 163%;
   margin-top: -1.22rem;
-  word-spacing: 0.01rem;
+  word-spacing: -0.05rem;
   margin-bottom: 1.125rem;
   padding-right: 1.4rem;
   letter-spacing: 0.1px;
@@ -634,7 +635,7 @@ body {
 }
 .our_production-photo2,
 .our_production-photo {
-  margin-top: -2.6rem;
+  margin-top: -4.3125rem;
   object-fit: cover;
   left: 0;
   top: 0;
@@ -700,6 +701,7 @@ body {
   font-size: 3.0rem;
   margin-bottom: 2.1875rem;
 }
+.about-content-wrapper,
 .founder-content-wrapper,
 .him-content-wrapper {
   display: flex;
@@ -707,7 +709,7 @@ body {
 }
 .him-content-wrapper {
   margin-right: 3.23rem;
-  margin-bottom: 14.2625rem;
+  margin-bottom: 12.9rem;
 }
 .avto-him-photo,
 .avto-him-photo2 {
@@ -788,6 +790,9 @@ body {
   columns: 2 auto;
   margin-top: -0.5999999999999996rem;
 }
+.clients-list {
+  margin-left: .9375rem;
+}
 .avto-list {
   list-style-type: none;
   padding: 0;
@@ -801,7 +806,7 @@ body {
 }
 .our-production-list {
   margin-top: 1.6rem;
-  max-width: 561px;
+  max-width: 1317px;
 }
 .our-avto-list {
   max-width: 1512px;
@@ -832,7 +837,8 @@ body {
 }
 .clients-content {
   flex-basis: 47.2%;
-  margin-top: -2.5rem;
+  margin-top: -0.8rem;
+
 }
 .our-production-item,
 .clients-list-item {
@@ -847,7 +853,10 @@ body {
   word-spacing: 0.4px;
 }
 .our-production-item {
-  gap: 0.6rem;
+  padding-bottom: 14px;
+}
+.our-production-text {
+  word-spacing: 0.02rem;
 }
 .avto-item {
   font-size: 0.8rem;
@@ -858,8 +867,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-shrink: 10;
-  margin-top: 1.5625rem;
-  margin-right: 7.125rem;
+  margin-left: 3.3125rem;
+  margin-right: -0.0625rem;
+  margin-top: -0.1875rem;
 }
 .clients-logo-item {
   flex-basis: 33%;
@@ -875,8 +885,8 @@ body {
 }
 .clients-logo {
   max-width: 100%;
-  height: 3.25rem;
-  width: 3.25rem;
+  height: 3.45rem;
+  width: 3.45rem;
 }
 .clients-logo-item:hover {
   filter: none;
@@ -893,13 +903,14 @@ body {
 .clients-production-burger-list {
   margin-top: -0.2rem;
   margin-left: 15px;
+  
 }
 .clients-production-wrapper {
   gap: 0;
   margin-bottom: 17.8125rem;
 }
 .blog {
-  margin-top: -10.6rem;
+  margin-top: -9.125rem;
   margin-right: 7.25rem;
 }
 .blog-title {
@@ -967,7 +978,7 @@ body {
   align-items: center;
   margin-top: 1.49rem;
   margin-right: 10.9375rem;
-  margin-bottom: -0.1875rem;
+  margin-bottom: 9.125rem;
   justify-content: end;
 }
 .ag-footer {
@@ -985,6 +996,8 @@ body {
 .avto-blog-button {
   margin-right: 10.9375rem;
   margin-top: 1.4rem;
+  margin-bottom: -0.375rem;
+
 }
 .bg-grey {
   background: #F0F2F5;
@@ -1403,15 +1416,22 @@ body {
   color: #fff;
 }
 .accessory {
-  padding-top: 3.125rem;
+  padding-top: 3.2rem;
 }
 .avtohim {
   margin-top: 3.5999999999999996rem;
-  margin-bottom: -1.125rem;
+  margin-bottom: -2.125rem;
+}
+.avtohim-content {
+  margin-right: 13.625rem;
 }
 .ag-tech {
-  margin-top: 3rem;
+  margin-top: 3.6rem;
   margin-bottom: -2.125rem;
+}
+.ag-clients-wrapper {
+  margin-top: -12rem;
+  margin-bottom: 18.75rem;
 }
 .photo {
   display: flex;
@@ -1427,13 +1447,15 @@ body {
 .photo-ag {
   min-width: 77rem;
   height: 36.125rem;
+  bottom: 12.7rem;
 }
 .ag-photo {
   height: 37.3rem;
   width: 30rem;
 }
 .ag-content {
-  margin-right: 14.8rem;
+  margin-right: 13.9rem;
+  margin-top: .1875rem;
 }
 .ag-title {
   margin-bottom: 1.5rem;
@@ -1442,7 +1464,8 @@ body {
 .ag-text {
   font-size: 0.8rem;
   max-width: 576px;
-  margin-bottom: .5625rem;
+  margin-bottom: 1.1rem;
+  line-height: 162%;
 }
 .first {
   margin-right: -2.8125rem;
@@ -1526,9 +1549,11 @@ body {
 }
 .ag-him-List {
   margin-bottom: 0.825rem;
+  margin-left: .875rem;
 }
 .ag-section {
-  margin-top: -13.375rem;
+  margin-top: -10.3rem;
+  margin-bottom: 17.1875rem;
 }
 .modern {
   margin-top: -2.175rem;
@@ -1750,6 +1775,66 @@ body {
 .button-error {
   margin-left: 1.1875rem;
 }
+.section-our {
+  margin-top: 11.9375rem;
+}
+ 
+/* .slider_{
+  position: relative;
+  max-width: 800px;
+  overflow: hidden;
+  margin: 0 20px;
+}
+
+.slider__line{
+  display: flex;
+  align-items: center;
+  transition: all 1s;
+}
+
+
+.slider__wrapper{
+  display: flex;
+  column-gap: 10px;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.slider-pag-list {
+  columns: 2 auto;
+}
+.slider__dot{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #524336;
+}
+
+.slider__dot:hover {
+  background-color: #BB8C5F;
+}
+
+.active-dot {
+  background-color: #BB8C5F;
+}
+.slider-wrapper-pag {
+  list-style-type: none;
+
+} */
+
+
+@media (max-width: 850px) {
+
+  .slider__dot {
+      width: calc(10px + (16 - 10) * ((100vw - 320px) / (850 - 320)));
+      height: calc(10px + (16 - 10) * ((100vw - 320px) / (850 - 320)));
+  }
+
+  .slider__wrapper{
+      column-gap: calc(5px + (10 - 5) * ((100vw - 320px) / (850 - 320)));
+  }
+}
+
 @media (max-width: 1920px) {
   html {
     font-size: 1rem;
@@ -1911,6 +1996,7 @@ body {
   .about-photo {
     left: 3.2rem;
   }
+  .ag-content,
   .about-content {
     margin-right: -3rem;
   }
@@ -2031,6 +2117,7 @@ body {
     max-width: 40rem;
     margin-left: -1.6rem;
   }
+  .ag-content,
   .about-content {
     margin-right: 6rem;
   }
@@ -2254,7 +2341,6 @@ body {
     font-size: 1.47rem;
   }
   .mark-text {
-    padding-left: 30px;
     font-size: 1.1rem;
     padding-top: 16px;
     padding-bottom: 0.5rem;
@@ -2724,6 +2810,7 @@ body {
   .about-text {
     font-size: 1rem;
   }
+  .ag-content,
   .about-content {
     margin-left: -1.6rem;
     margin-right: -0.6rem;

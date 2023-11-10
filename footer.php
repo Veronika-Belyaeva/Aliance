@@ -140,7 +140,7 @@
               <a href="/about.php" class="footer-menu-link footer-menu-link-bold">О компании</a>
             </li>
             <li class="footer-menu-item">
-              <a href="#" class="footer-menu-link footer-menu-link-bold">Новости</a>
+              <a href="/politics.php" class="footer-menu-link footer-menu-link-bold">Новости</a>
             </li>
             <li class="footer-menu-item">
               <a href="/contact.php" class="footer-menu-link footer-menu-link-bold">Контакты</a>
@@ -175,7 +175,7 @@
     <!-- /.container -->
   </footer>
 
-
+  <?php include_once('modal.php'); ?>
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/just-validate.production.min.js"></script>
   <script src="js/main.js"></script>

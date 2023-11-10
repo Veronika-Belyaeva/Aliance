@@ -15,14 +15,13 @@ include_once('header-page.php'); ?>
     <img src="img/about.png" alt="about production" class="about-photo">
   </picture>
     <div class="container">
-      <div class="founder-content-wrapper">
+      <div class="about-content-wrapper">
         <div class="about-content">
           <div class="seporator"></div>
           <h2 class="section-title about-title">мы - эксперты в области производства химии</h2>
           <p class="about-text">Разнообразный и богатый опыт говорит нам, что перспективное планирование однозначно фиксирует необходимость поставленных обществом задач! Есть над чем задуматься: ключевые особенности структуры проекта могут быть объединены в целые кластеры себе подобных. Интерактивные прототипы, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут описаны максимально подробно. Значимость этих проблем настолько очевидна, что перспективное планирование играет важную роль в формировании системы массового участия.</p>
         </div>
       </div>
-      <!-- /.founder-content-wrapper -->
     </div>
   </section>
 <?php
@@ -55,31 +54,31 @@ include_once('./template-parts/features-block.php'); ?>
               </svg>
               Автомобильная химия
             </li>
-            <li class="clients-list-item">
+            <li class="our-production-item">
               <svg height="25" width="25" class="clients-list-icon">
                 <use href="img/sprite.svg#home"></use>
               </svg>
               Бытовая химия
             </li>
-            <li class="clients-list-item">
+            <li class="our-production-item">
               <svg height="25" width="25" class="clients-list-icon">
                 <use href="img/sprite.svg#dis"></use>
               </svg>
               Дезинфицирующие средства
             </li>
-            <li class="clients-list-item">
+            <li class="our-production-item">
               <svg height="25" width="25" class="clients-list-icon">
                 <use href="img/sprite.svg#aerozol"></use>
               </svg>
               Пищевые аэрозоли
             </li>
-            <li class="clients-list-item">
+            <li class="our-production-item">
               <svg height="25" width="25" class="clients-list-icon">
                 <use href="img/sprite.svg#cosmetic"></use>
               </svg>
               Косметическая продукция
             </li>
-            <li class="clients-list-item">
+            <li class="our-production-item">
               <svg height="25" width="25" class="clients-list-icon">
                 <use href="img/sprite.svg#brush"></use>
               </svg>

@@ -140,7 +140,7 @@ include_once('header-page.php'); ?>
     <!-- /.container -->
   </footer>
 
-
+  <?php include_once('modal.php'); ?>
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/just-validate.production.min.js"></script>
   <script src="js/main.js"></script>

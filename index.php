@@ -43,7 +43,7 @@
         <a href="/politics.php" class="header-nav-link">Новости</a>
       </li>
       <li class="header-nav-item">
-        <a href="#" class="header-nav-link">Контакты</a>
+        <a href="/contact.php" class="header-nav-link">Контакты</a>
       </li>
     </ul>
 

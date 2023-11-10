@@ -4,6 +4,45 @@ $header_style = 'bg-grey';
 include_once('header-page.php'); ?>
 
 
+<!-- <div class="slider_">
+<div class="container">
+<div class="slider__line">
+            <ul class="slider-wrapper-pag">
+              <li class="slider-pag-list">
+              <picture>
+              <source type="image/webp" srcset="img/blog/blog-photo.webp">
+              <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
+              <img src="img/blog/blog-photo.jpg" alt="blog" class="slider__img">
+              </picture> 
+              <picture>
+                <source type="image/webp" srcset="img/blog/blog-photo.webp">
+                <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
+                <img src="img/blog/blog-photo.jpg" alt="blog" class="slider__img">
+              </picture> 
+              <picture>
+                <source type="image/webp" srcset="img/blog/blog-photo.webp">
+                <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
+                <img src="img/blog/blog-photo.jpg" alt="blog" class="slider__img">
+              </picture> 
+              </li>
+              <li>
+              </li>
+              <li class="slider-pag"></li>
+            </ul>
+            </div>
+
+            <div class="slider__wrapper">
+                <div class="slider__dot active-dot">1</div>
+                <div class="slider__dot">2</div>
+                <div class="slider__dot">3</div>
+                <div class="slider__dot">4</div>
+                <div class="slider__dot">5</div>
+            </div>
+</div>
+
+</div> -->
+
+
 <!-- Slider main container -->
 <div class="swiper blog-slider">
         <!-- Additional required wrapper -->
@@ -71,3 +110,6 @@ include_once('header-page.php'); ?>
 
 
 <?php include_once('footer.php'); ?>
+
+
+

@@ -40,10 +40,10 @@
           <a href="#" class="header-nav-link">Собственные торговые марки</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Новости</a>
+          <a href="/politics.php" class="header-nav-link">Новости</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контакты</a>
+          <a href="/contact.php" class="header-nav-link">Контакты</a>
         </li>
       </ul>
   
@@ -93,7 +93,7 @@
   </picture>
     <div class="container">
       <div class="him-content-wrapper ag-wrapper">
-        <div class="about-content ag-content">
+        <div class="ag-content">
           <div class="seporator"></div>
           <h2 class="section-title about-title ag-title">Собственное производство автохимия AG-Tech</h2>
           <p class="him-text ag-text">
@@ -172,5 +172,8 @@ include_once('./template-parts/step-block.php'); ?>
 <?php $styleList = 'ag-him-List';
 $styleButton = 'ag-footer';
 $styleSection = 'ag-section';
+$styleWrapper = 'ag-clients-wrapper';
 include_once('./template-parts/clients-block.php'); ?>
 <?php include_once('footer.php'); ?>
+<?php include_once('modal.php'); ?>
+</body>
