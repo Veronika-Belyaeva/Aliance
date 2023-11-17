@@ -336,9 +336,9 @@
   include_once('./template-parts/step-block.php'); ?>
     <?php $styleLogo = 'clients-production-logo';
     $styleList = 'clients-production-burger-list';
+    $styleContent = 'avtohim-content-content';
     $styleWrapper = 'clients-production-wrapper';
     include_once('./template-parts/clients-block.php');?>
     <?php include_once('footer.php'); ?>
-    <?php include_once('modal.php'); ?>
   </body>
 </html>

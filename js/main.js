@@ -50,16 +50,16 @@ const swiperSteps = new Swiper(".steps-slider", {
     prevEl: '.steps-button-prev',
   },
   breakpoints: {
-    // when window width is >= 320px
+    // when window width is >= 420px
     420: {
       slidesPerView: 2,
     },
     // when window width is >= 480px
-    768: {
+    900: {
       slidesPerView: 3,
     },
     // when window width is >= 640px
-    1200: {
+    1400: {
       slidesPerView: 4,
     },
   }
@@ -108,56 +108,16 @@ const swiperBlog = new Swiper('.blog-slider', {
   }
 });
 
-
-
-
-// // Исходные данные по слайдеру (const)
-// const sliderImages = document.querySelectorAll('.slider__img'),
-//     sliderLine = document.querySelector('.slider__line'),
-//     sliderDots = document.querySelectorAll('.slider__dot');
-
-        
-// // Переменные    
-// let sliderCount = 0,
-//     sliderWidth;
-
-// // Адаптивность слайдера
-// window.addEventListener('resize', showSlide);
-
-
-// // Функции ==================
-// // Задает нужную ширину картинки и sliderLine
-// function showSlide() {
-//     sliderWidth = document.querySelector('.slider_').offsetWidth;
-//     sliderLine.style.width = sliderWidth * sliderImages.length + 'px';
-//     sliderImages.forEach(item => item.style.width = sliderWidth + 'px');
-
-//     rollSlider();
-// }
-// showSlide();
-
-// // Задает шаг перемещения слайдов
-// function rollSlider() {
-//     sliderLine.style.transform = `translateX(${-sliderCount * sliderWidth}px)`;
-// }
-
-// // Указывает как слайд по счету активен
-// function thisSlide(index) {
-//     sliderDots.forEach(item => item.classList.remove('active-dot'));
-//     sliderDots[index].classList.add('active-dot');
-// }
-
-// // Вешает клик на dot
-// sliderDots.forEach((dot, index) => {
-//     dot.addEventListener('click', () => {
-//         sliderCount = index;
-//         rollSlider();
-//         thisSlide(sliderCount);
-//     })
-// })
-
-
-
+new Swiper('.swiperAll', {
+  slidesPerView: 1,
+  pagination: {
+      el: '.swiper-pagination',
+      bulletClass: 'point',
+      bulletActiveClass: 'active',
+      renderBullet: (index, className) => `<li class="double-slide__link ${className}">${index + 1}</li>`,
+      clickable: true,
+  },
+});
 
 let currentModal; // Текущее модальное окно
 let modalDialog; // Белое диалоговое окно
@@ -224,7 +184,9 @@ forms.forEach((form) => {
       }).then((response) => {
         if (response.ok) {
           thisForm.reset();
-          currentModal.classList.remove("is-open");
+          if (currentModal !== undefined) {
+            currentModal.classList.remove("is-open");
+          }
           alertModal.classList.add("is-open");
           currentModal = alertModal;
           modalDialog = currentModal.querySelector(".modal-dialog");

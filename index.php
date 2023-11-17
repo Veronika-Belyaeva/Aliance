@@ -96,10 +96,10 @@
    include_once('./template-parts/section-production.php')?>
   <?php $block_title = "Собственные торговые марки"; 
   include_once('./template-parts/trademarks-block.php') ?>
-  <?php $buttonText = 'Подробнее о компании';
+  <?php 
   $styleText = 'founder-text';
   $stylePhoto = 'founder-photo';
-  $buttonText = 'Подробнее о компании';
+  $styleTitle = 'founder-title';
   $styleButton = 'button-link';
   $styleWrapper = 'founder-content-wrapper';
   include_once('./template-parts/founder-block.php'); ?>
@@ -110,4 +110,7 @@
   <?php include_once('footer.php'); ?>
   <?php include_once('modal.php'); ?>
 </body>
+<script src="js/swiper-bundle.min.js"></script>
+  <script src="js/just-validate.production.min.js"></script>
+  <script src="js/main.js"></script>
 </html>

@@ -1,7 +1,7 @@
 <section class="section <?= $styleSection;?>">
     <div class="container">
       <div class="clients-wrapper <?= $styleWrapper; ?>">
-        <div class="clients-content">
+        <div class="clients-content <?= $styleContent; ?>">
           <div class="seporator"></div>
           <h2 class="section-title <?= $styleTitle;?>">Производим аэрозольную продукцию для разных сфер</h2>
           <ul class="clients-list <?= $styleList; ?>">
@@ -60,7 +60,7 @@
               Строительные материалы
             </li>
             <li class="clients-list-item">
-              <svg height="25" width="25" class="clients-list-icon">
+              <svg height="30" width="30" class="clients-list-icon">
                 <use href="img/sprite.svg#more"></use>
               </svg>
               И многих других

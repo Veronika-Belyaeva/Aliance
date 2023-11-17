@@ -18,7 +18,7 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <a href="/blog-more.php" class="swiper-slide blog-card">
+          <a href="/blog-more.php" class="swiper-slide blog-card  blog-card-before">
             <picture>
               <source type="image/webp" srcset="img/blog/blog-photo.webp">
               <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
@@ -42,7 +42,7 @@
                 Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
             </div>
           </a>
-          <a href="#" class="swiper-slide blog-card">
+          <a href="#" class="swiper-slide blog-card blog-card-before">
             <picture>
               <source type="image/webp" srcset="img/blog/blog-photo2.webp">
               <source type="image/jpeg" srcset="img/blog/blog-photo2.jpg">

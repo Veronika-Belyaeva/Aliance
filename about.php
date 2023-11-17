@@ -10,9 +10,9 @@ $header_style = 'bg-grey';
 include_once('header-page.php'); ?>
 <section class="section about">
   <picture>
-    <source type="image/webp" srcset="img/about.webp">
-    <source type="image/jpeg" srcset="img/about.png">
-    <img src="img/about.png" alt="about production" class="about-photo">
+    <source type="image/webp" srcset="img/About.webp">
+    <source type="image/jpeg" srcset="img/About.png">
+    <img src="img/About.png" alt="about production" class="about-photo">
   </picture>
     <div class="container">
       <div class="about-content-wrapper">
@@ -97,8 +97,7 @@ include_once('./template-parts/features-block.php'); ?>
 
 
 <?php $styleText = 'our-production-founder-text';
-$buttonText = 'О нашей миссии';
-$styleButton = 'button-founder';
+$styleButton = '';
 $styleTitle = 'about-title';
 $stylePhoto = 'our-ptoduction-founder-photo';
 $styleWrapper = 'founder-our-production-wrapper';

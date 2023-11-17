@@ -1,8 +1,9 @@
 
 
 <section>
-    <div class="container">
-      <div class="seporator"></div>
+  <div class="container">
+    <div class="wrapper-blog-science">
+    <div class="seporator"></div>
       <h2 class="section-title about-title">Исследовательский центр Aliance production</h2>
       <ul class="our-production-list avto-him-list <?= $styleList; ?>">
         <li class="our-production-item">
@@ -17,7 +18,7 @@
       </ul>
     </div>
           <!-- Slider main container -->
-          <div class="swiper blog-slider">
+          <div class="swiper blog-slider blog-slider-science">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
@@ -65,5 +66,7 @@
             </div>
         </div>
         <!-- /.blog-slider-footer -->
-      </div>
+    </div>  
+  
+  </div>
   </section>
